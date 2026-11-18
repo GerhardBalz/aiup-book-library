@@ -437,5 +437,30 @@
     "Full CI, other-platform execution and official released-package installation not claimed",
     "Application/browser/deployment/human acceptance and #66 behavior not qualified",
     "Selected sanitized historical evidence; raw event streams remain private"
-  ]
+  ],
+  "post_publication_remote_clone_verification": {
+    "utc": "2026-11-18T20:36:05.838743+00:00",
+    "fresh_remote_clones": true,
+    "tested_marketplace_commit": "2303da7c748a4c4f82b6f5e25415a718dfb93df9",
+    "tested_book_library_commit": "e33e9372ea34eab6cd48c1b1c3285c25f2fd935d",
+    "candidate_patch_sha256": "055c45906ad6a8e005f377ef118e20a6d32ccec3b2a8b872b0209e71bec13f5e",
+    "candidate_patch_unchanged": true,
+    "bug_reproduced": true,
+    "candidate_contract_met": true,
+    "cases_per_variant": [
+      4,
+      4,
+      4
+    ],
+    "source_inputs_preserved": true,
+    "trace_sessions_hash_verified": 39,
+    "runner_exact_original_bytes": true,
+    "existing_output_refused_without_changes": true,
+    "python": "3.14.6",
+    "git": "git version 2.55.0.windows.3",
+    "only_public_fork_inputs_and_preinstalled_tools": true,
+    "new_model_sessions": false,
+    "limits": "Deterministic source-level replay and documentary trace identity; no full CI or released-package/app qualification"
+  },
+  "later_metadata_scope": "This record was added after testing the initial published consumer commit; all executable, fixture, candidate and historical-trace inputs remain identical."
 }
