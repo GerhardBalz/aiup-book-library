@@ -1,0 +1,51 @@
+--- a/docs/glossary.md
++++ b/docs/glossary.md
+@@ -7,7 +7,7 @@
+ | User Account | The sign-in identity for a Member or Librarian. |  |
+ | Member Profile | The domain record that links a Member’s User Account to that Member’s Loans. |  |
+ | Catalog | The collection of Books listed for discovery in Book Library. |  |
+-| Book | A Catalog entry describing a work by title, author and ISBN. It can represent multiple Copies. |  |
++| Book | A record describing a work by title, author and ISBN that can represent multiple Copies. When a Book with Loan History is withdrawn from the Catalog, its record and Loan History are retained. |  |
+ | Copy | One lendable instance of a Book. |  |
+ | Loan | A record of a Member borrowing a Book, including when it was borrowed and, once returned, when it was returned. |  |
+ | Active Loan | A Loan whose Book has yet to be returned. |  |
+--- a/docs/open_questions.md
++++ b/docs/open_questions.md
+@@ -9,12 +9,13 @@
+ **Element:** FR-013  
+ **Raised by:** /requirements, 2026-11-18  
+ **Blocking:** Yes  
+-**Status:** Answered  
++**Status:** Resolved  
+ 
+ The tutorial identifies two options. Block removal after any Loan, or withdraw the Book from the Catalog while retaining its record. Both options must preserve Loan History.
+ 
+ **Answer:** Withdraw it from the Catalog and retain its record. Preserve Loan History.  
+ **Answered by:** Product owner (explicit user answer in this conversation), 2026-11-18  
++**Resolved in:** FR-013, Glossary: Book  
+ 
+ ## OQ-002: What response-time target should apply to Catalog search?
+ 
+--- a/docs/requirements.md
++++ b/docs/requirements.md
+@@ -18,17 +18,17 @@
+ | FR-010 | View Loan History | As a Librarian, I want to view Loan History so that I can trace who borrowed each Book and when. | Medium | Open |
+ | FR-011 | Add Books | As a Librarian, I want to add Books to the Catalog so that Members can find newly acquired Books. | High | Open |
+ | FR-012 | Update Books | As a Librarian, I want to update Book details in the Catalog so that Members can find Books using accurate information. | Medium | Open |
+-| FR-013 | Remove Books from the Catalog | As a Librarian, I want to remove Books from the Catalog while preserving Loan History so that Members can search the current collection and I can still trace past Loans. | Medium | Open |
++| FR-013 | Remove Books from the Catalog | As a Librarian, I want to remove Books from the Catalog, withdrawing any Book with Loan History while retaining its record and Loan History so that Members see the current collection and I can trace past Loans. | Medium | Open |
+ | FR-014 | Create Member accounts | As a Librarian, I want to manually create a User Account for a Member so that the Member can sign in without self-service registration. | High | Open |
+ 
+ ## Non-Functional Requirements
+ 
+ | ID | Title | Requirement | Category | Priority | Status |
+ | --- | --- | --- | --- | --- | --- |
+-| NFR-001 | Authenticated library actions | Every library action requires an authenticated User Account and is attributable to that account. | Security | High | Open |
++| NFR-001 | Authenticated library actions | Every library action after sign-in requires an authenticated User Account and is attributable to exactly one User Account. | Security | High | Open |
+ | NFR-002 | Librarian-only access | Zero librarian-only views are accessible to Members. | Security | High | Open |
+ | NFR-003 | Member Loan privacy | A Member can retrieve zero Loans belonging to another Member. | Security | High | Open |
+-| NFR-004 | Current Active Loans | The next retrieval of the Active Loans view after a committed borrow or return reflects that change. | Performance | High | Open |
++| NFR-004 | Current Active Loans | A committed borrow or return must be reflected by the first subsequent retrieval of the Active Loans view. | Performance | High | Open |
+ | NFR-005 | Feature package structure | Each feature package has exactly two subpackages, `ui` and `domain`. | Maintainability | High | Open |
+ 
+ ## Constraints

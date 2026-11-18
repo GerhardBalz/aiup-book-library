@@ -1,0 +1,68 @@
+{
+  "invocation": "$requirements",
+  "exit": 0,
+  "elapsed_seconds": 136.58,
+  "finished_utc": "2026-11-18T16:31:31.547568+00:00",
+  "changed_files": [
+    "docs/glossary.md",
+    "docs/open_questions.md",
+    "docs/requirements.md"
+  ],
+  "protected_files_changed": [],
+  "read_only_met": null,
+  "before_manifest_sha256": "11f19ee212611c2eaf5d2128812695f655838aa95bd4f6f21584b9641d597854",
+  "after_manifest_sha256": "5ae692a5554aefbf973ba132c2e7390df4ca3971fef253efed2907220dec32a2",
+  "variant": "candidate",
+  "case": "clean",
+  "step": "02",
+  "source_session_id_sha256": [
+    "a977c7e85d012f5d2565cb4028c0d337a5e185df2058ec574ec30c77046d5a9d"
+  ],
+  "historical_evidence": true,
+  "original_files": {
+    "prompt.txt": {
+      "original_sha256": "56636c280ab61adb2df431e6b230a59ab75af06beb5e2fbcfd7dbe3ef88c386d",
+      "published_sha256": "203aac2273d2d1834e00a693a5c6ff14cca777acbf6fc2581dc123db4413532e",
+      "sanitized": true
+    },
+    "response.md": {
+      "original_sha256": "a859381e5634fd62aef36602ba9b2b0e1035f7f0710f83ff3f18d71fec4536ab",
+      "published_sha256": "a859381e5634fd62aef36602ba9b2b0e1035f7f0710f83ff3f18d71fec4536ab",
+      "sanitized": false
+    },
+    "changes.patch": {
+      "original_sha256": "6bbe762594adc82805318e1810dd3e565d1c460bba00d6867fcc412d7035accf",
+      "published_sha256": "6bbe762594adc82805318e1810dd3e565d1c460bba00d6867fcc412d7035accf",
+      "sanitized": false
+    }
+  },
+  "snapshots": {
+    "before": {
+      "original_archive_sha256": "82c03f54e1f14372ef18312718707399f01f1386c9bf525ed1383413c5261b53",
+      "original_manifest_sha256": "11f19ee212611c2eaf5d2128812695f655838aa95bd4f6f21584b9641d597854",
+      "selected_documents": {}
+    },
+    "after": {
+      "original_archive_sha256": "e3ddce24ff8bb0946589ca5ec65cca36b1ebc7e74383028379e732c716503fbd",
+      "original_manifest_sha256": "5ae692a5554aefbf973ba132c2e7390df4ca3971fef253efed2907220dec32a2",
+      "selected_documents": {
+        "docs/glossary.md": {
+          "original_sha256": "ce49c5e32973bdeccd183a3072f9b1fa0fe203fad189f6522e9f55d9086e6c3b",
+          "published_sha256": "0a9ff7298113af0fc07d601f1c3262784bfc0c27afb3cc06554b9151a82bf628",
+          "sanitized": true
+        },
+        "docs/open_questions.md": {
+          "original_sha256": "403c7e4301130b699e19ddf7740da6052edc3298a0151df15038b0b98a05311a",
+          "published_sha256": "03361eeca3cebbbd9faa14f00d9a23c76ca7b3d14ef52eb529b8ee5c3667ffb7",
+          "sanitized": true
+        },
+        "docs/requirements.md": {
+          "original_sha256": "a897368e602c830c9468ee6b7905b06fced0c09ea6c4569be9438ea9f6991568",
+          "published_sha256": "440cb3c54979871a1852fae1bf6fd267b275c5c164c4ad929fdbe68f1893b7c1",
+          "sanitized": true
+        }
+      }
+    }
+  },
+  "disclosure": "Selected sanitized derivative; raw model/tool event stream and private preparation records are not included"
+}

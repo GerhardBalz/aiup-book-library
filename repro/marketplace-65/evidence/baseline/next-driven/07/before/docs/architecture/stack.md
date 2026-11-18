@@ -1,0 +1,67 @@
+# Stack
+
+**For the agent:** read before writing code. This file is the AI Unified Process record of the technical layers,
+independent of how the team documents its architecture. The Layers table says which layer skill builds and tests
+each technical layer: `/use-case-implement` runs the Skill column bottom-up, `/use-case-test` runs the Test skill
+column from the integration layer up, and `/use-case-coverage` searches for the markers in the last table.
+
+**Last updated:** 2026-11-18
+
+## Layers
+
+| Layer | Technology | Skill | Test skill | Location |
+|---|---|---|---|---|
+| Migration | Flyway for PostgreSQL | `flyway-schema` | – | `src/main/resources/db/migration` |
+| Persistence | jOOQ | `jooq-persistence` | `jooq-persistence-test` | `<feature>.domain` |
+| Client | – | – | – | – |
+| Service | Spring Boot | `spring-service` | `spring-service-test` | `<feature>.domain` |
+| API | – | – | – | – |
+| UI | Vaadin Flow | `vaadin-flow-ui` | `vaadin-flow-ui-test` | `<feature>.ui`, shared views in `core.ui` |
+| E2E | Playwright for Java with Drama Finder | – | `vaadin-e2e-test` | `src/test/java` (`*IT`) |
+
+**Integration layer:**
+
+| Use case offered through | Tested in | Test skill |
+|---|---|---|
+| UI | UI | `vaadin-flow-ui-test` |
+| Service | Service | `spring-service-test` |
+
+A use case is tested at the first entry in the integration table named on its `**Layers:**` line, or at the UI
+when that line is absent. Both integration test skills run in process against the real database. The Vaadin Flow
+tests exercise the service and persistence layers through the view.
+
+**E2E scope:** Use cases and test cases
+
+The product owner selected this scope on 2026-11-18 for the Book Library #65 pilot. It covers browser tests for
+use cases offered through the UI and for TC-* journeys.
+
+C-010 requires Vaadin. The Java `@Route` views identify Vaadin Flow. C-011 requires jOOQ and C-012 requires
+Spring Security for authentication and authorization.
+
+## Module layout
+
+Book Library is a single Maven module rooted at `ai.unified.process.demo.book.library`. As documented in
+[Architecture](../architecture.md), each feature puts Vaadin views in `<feature>.ui` and services and
+repositories in `<feature>.domain`. Views call services, which call repositories. Shared navigation,
+configuration, and security live under `core`. Java production and test sources live in `src/main/java` and
+`src/test/java` respectively, and Flyway migrations live in `src/main/resources/db/migration`.
+
+## Commands
+
+| Purpose | Command |
+|---|---|
+| Build | `./mvnw clean package -Pproduction` |
+| Unit tests | `./mvnw test` |
+| In-process integration tests (including Browserless) | `./mvnw test` |
+| End-to-end tests (Maven Failsafe) | `./mvnw verify` |
+
+Use `.\mvnw.cmd` in Windows PowerShell.
+
+## Markers
+
+Each layer skill keeps its own rows here: on every run it checks that the rows for its layer match its marker
+reference and corrects them. Do not edit the rows by hand; rerun the layer skill instead.
+
+| Layer | Skill | Kind | Marker to grep for |
+|-------|-------|------|--------------------|
+| All   | –     | Code | `// UC-XXX BR-YYY:` directly above the method, query condition, or validator that enforces the rule |

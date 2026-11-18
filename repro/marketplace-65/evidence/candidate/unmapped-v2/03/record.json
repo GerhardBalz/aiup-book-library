@@ -1,0 +1,120 @@
+{
+  "invocation": "$next",
+  "exit": 0,
+  "elapsed_seconds": 47.49,
+  "finished_utc": "2026-11-18T16:34:24.156861+00:00",
+  "changed_files": [],
+  "protected_files_changed": [],
+  "read_only_met": true,
+  "before_manifest_sha256": "a4ba816bd47013006d5572ec7cd2acfd5544971c0e11c6021c1da8cee3c4489c",
+  "after_manifest_sha256": "a4ba816bd47013006d5572ec7cd2acfd5544971c0e11c6021c1da8cee3c4489c",
+  "variant": "candidate",
+  "case": "unmapped-v2",
+  "step": "03",
+  "source_session_id_sha256": [
+    "eee8d4f557f33b3d769e60969e46af05e34c9609a83c9b063b21efd7843002c3"
+  ],
+  "historical_evidence": true,
+  "original_files": {
+    "prompt.txt": {
+      "original_sha256": "035b9ba8077824278d9c990326c649ea0c65cdcb86ce8ff649f8e6f184038ca7",
+      "published_sha256": "16d17c51e75061b082df493723f6660c8257b21b7f03e11015ccb5ff83b97e6c",
+      "sanitized": true
+    },
+    "response.md": {
+      "original_sha256": "b8b1520299c37876fea97226b1dcfb9ad028ad89978733008b87f4309d7b77f6",
+      "published_sha256": "b8b1520299c37876fea97226b1dcfb9ad028ad89978733008b87f4309d7b77f6",
+      "sanitized": false
+    },
+    "changes.patch": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitized": false
+    }
+  },
+  "snapshots": {
+    "before": {
+      "original_archive_sha256": "1620ed23ff7676e44a8311321b566573f0f1d0b74be4eb6e2e6ebfe2618e3c10",
+      "original_manifest_sha256": "a4ba816bd47013006d5572ec7cd2acfd5544971c0e11c6021c1da8cee3c4489c",
+      "selected_documents": {
+        "docs/architecture/stack.md": {
+          "original_sha256": "8cea586ee0c4527d65d1e1769fcf1376ce516b10ffbee2cf528a7c4cae77327c",
+          "published_sha256": "2f3c14b8caad4728a759069c6855cc16db8ec5cf29b8dbe2a1cd45658fb99d8b",
+          "sanitized": true
+        },
+        "docs/entity_model.md": {
+          "original_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "published_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "sanitized": false
+        },
+        "docs/glossary.md": {
+          "original_sha256": "dfdc4f868e1215984428559d3ee920c33e2c94446694358fd2dbe45d2166e3ca",
+          "published_sha256": "117c8833c62e4b5ea082c27c26c24509f48a8916a7dc0ce712c507a94c6d1fb2",
+          "sanitized": true
+        },
+        "docs/open_questions.md": {
+          "original_sha256": "ee34f2b3ba56100e8594531cae0cfcb3fe92a4ceebef28a415173b9ceb4e3956",
+          "published_sha256": "506b4833d170bf658e6f70c65b1a7197a47fea90b52ac86e916a8a22d460656d",
+          "sanitized": true
+        },
+        "docs/requirements.md": {
+          "original_sha256": "c78c9569c4192218f8c3c6ffdfb6c8650be3b9628c8d92ee734193dfdc14a31f",
+          "published_sha256": "af2d43803bc358fbe82b32c9df11919dd925efa326969d82d4378043b45b74bc",
+          "sanitized": true
+        },
+        "docs/use_cases.puml": {
+          "original_sha256": "9eae7e8c3b020aa18fd82f8aaf762e985cd11118f533ec70b5913ba355d3f6bc",
+          "published_sha256": "4eaea6f6c448b46e9e7652a22e4af2db5db940de1cbe9c0eb87b16c8558298b0",
+          "sanitized": true
+        },
+        "docs/use_cases/UC-001-search-the-catalog.md": {
+          "original_sha256": "c8f6d0a5f8a053f8bda99626a54cf695cc68e2144be97fa36cb8e42a538e4d3b",
+          "published_sha256": "925e8068496139b7c87b43619f8a884ecb1dfb24e1bda422ed1ad20606bd5d88",
+          "sanitized": true
+        }
+      }
+    },
+    "after": {
+      "original_archive_sha256": "f9d6250c4b49e21dcce88f2d6db99c293e9fd68c1d4fdc3147e560fd8889b342",
+      "original_manifest_sha256": "a4ba816bd47013006d5572ec7cd2acfd5544971c0e11c6021c1da8cee3c4489c",
+      "selected_documents": {
+        "docs/architecture/stack.md": {
+          "original_sha256": "8cea586ee0c4527d65d1e1769fcf1376ce516b10ffbee2cf528a7c4cae77327c",
+          "published_sha256": "2f3c14b8caad4728a759069c6855cc16db8ec5cf29b8dbe2a1cd45658fb99d8b",
+          "sanitized": true
+        },
+        "docs/entity_model.md": {
+          "original_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "published_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "sanitized": false
+        },
+        "docs/glossary.md": {
+          "original_sha256": "dfdc4f868e1215984428559d3ee920c33e2c94446694358fd2dbe45d2166e3ca",
+          "published_sha256": "117c8833c62e4b5ea082c27c26c24509f48a8916a7dc0ce712c507a94c6d1fb2",
+          "sanitized": true
+        },
+        "docs/open_questions.md": {
+          "original_sha256": "ee34f2b3ba56100e8594531cae0cfcb3fe92a4ceebef28a415173b9ceb4e3956",
+          "published_sha256": "506b4833d170bf658e6f70c65b1a7197a47fea90b52ac86e916a8a22d460656d",
+          "sanitized": true
+        },
+        "docs/requirements.md": {
+          "original_sha256": "c78c9569c4192218f8c3c6ffdfb6c8650be3b9628c8d92ee734193dfdc14a31f",
+          "published_sha256": "af2d43803bc358fbe82b32c9df11919dd925efa326969d82d4378043b45b74bc",
+          "sanitized": true
+        },
+        "docs/use_cases.puml": {
+          "original_sha256": "9eae7e8c3b020aa18fd82f8aaf762e985cd11118f533ec70b5913ba355d3f6bc",
+          "published_sha256": "4eaea6f6c448b46e9e7652a22e4af2db5db940de1cbe9c0eb87b16c8558298b0",
+          "sanitized": true
+        },
+        "docs/use_cases/UC-001-search-the-catalog.md": {
+          "original_sha256": "c8f6d0a5f8a053f8bda99626a54cf695cc68e2144be97fa36cb8e42a538e4d3b",
+          "published_sha256": "925e8068496139b7c87b43619f8a884ecb1dfb24e1bda422ed1ad20606bd5d88",
+          "sanitized": true
+        }
+      }
+    }
+  },
+  "disclosure": "Selected sanitized derivative; raw model/tool event stream and private preparation records are not included"
+}

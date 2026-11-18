@@ -1,0 +1,39 @@
+@startuml Book_Library_Use_Cases
+left to right direction
+
+actor "Member" as Member
+actor "Librarian" as Librarian
+
+rectangle "Book Library" {
+    ' Requirements: FR-001
+    usecase "UC-001\nSign in" as UC001
+    ' Requirements: FR-002, FR-003
+    usecase "UC-002\nSearch catalog" as UC002
+    ' Requirements: FR-004
+    usecase "UC-003\nBorrow book copy" as UC003
+    ' Requirements: FR-005
+    usecase "UC-004\nReturn book copy" as UC004
+    ' Requirements: FR-006
+    usecase "UC-005\nView own active loans" as UC005
+    ' Requirements: FR-007
+    usecase "UC-006\nView active loans" as UC006
+    ' Requirements: FR-008
+    usecase "UC-007\nView lending history" as UC007
+    ' Requirements: FR-009
+    usecase "UC-008\nManage catalog" as UC008
+    ' Requirements: FR-010
+    usecase "UC-009\nCreate member account" as UC009
+}
+
+Member --> UC001
+Librarian --> UC001
+Member --> UC002
+Librarian --> UC002
+Member --> UC003
+Member --> UC004
+Member --> UC005
+Librarian --> UC006
+Librarian --> UC007
+Librarian --> UC008
+Librarian --> UC009
+@enduml

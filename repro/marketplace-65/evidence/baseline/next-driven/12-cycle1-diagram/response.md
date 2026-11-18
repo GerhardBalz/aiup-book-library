@@ -1,0 +1,3 @@
+Validated the existing [Book Library use case diagram](<{LOCAL_REPLAY}/issue37-book-library-replay-01/docs/use_cases.puml>). Its nine use cases cover all 13 functional requirements, and both actors are connected to their goals. Draft status styling and structural PlantUML syntax checks passed. No PlantUML renderer was available.
+
+The diagram already groups catalog search and sign-in across both roles, groups adding and editing under Maintain Book Details, and keeps Catalog removal separate because it must preserve Loan History. The skill review required no edits.

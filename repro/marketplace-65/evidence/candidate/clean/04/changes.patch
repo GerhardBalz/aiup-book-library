@@ -1,0 +1,135 @@
+--- /dev/null
++++ b/docs/entity_model.md
+@@ -0,0 +1,71 @@
++# Entity Model
++
++APP_USER (id, username, password_hash, role, created_at) ships with the project and is an external boundary.
++
++## Entity Relationship Diagram
++
++```mermaid
++erDiagram
++    BOOK ||--o{ COPY : "has"
++    COPY ||--o{ LOAN : "is borrowed on"
++    MEMBER ||--o{ LOAN : "borrows on"
++```
++
++### BOOK
++
++A Book is a Catalog entry that describes the work represented by its Copies.
++
++| Attribute | Description | Data Type | Length/Precision | Validation Rules |
++| --- | --- | --- | --- | --- |
++| id | Book identifier | Long | 19 | Primary Key, Sequence |
++| title | Title displayed in the Catalog | String | 255 | Not Null |
++| author | Author name or credit displayed in the Catalog | String | 255 | Not Null |
++| isbn | ISBN identifying the edition, when available | String | 13 | Optional, Unique |
++
++#### Constraints
++
++- When supplied, store a valid ISBN-13 without separators, converting a valid ISBN-10 to ISBN-13.
++
++### COPY
++
++A Copy is a lendable instance of a Book.
++
++| Attribute | Description | Data Type | Length/Precision | Validation Rules |
++| --- | --- | --- | --- | --- |
++| id | Copy identifier | Long | 19 | Primary Key, Sequence |
++| book_id | Book represented by the Copy | Long | 19 | Not Null, Foreign Key (BOOK.id) |
++
++### MEMBER
++
++A Member Profile links a Member's User Account to the Member's Loans.
++
++| Attribute | Description | Data Type | Length/Precision | Validation Rules |
++| --- | --- | --- | --- | --- |
++| id | Member Profile identifier | Long | 19 | Primary Key, Sequence |
++| user_id | Member's User Account | Long | 19 | Not Null, Unique, Foreign Key (APP_USER.id) |
++| name | Member's name | String | 255 | Not Null |
++| email | Member's contact email when available | String | 254 | Optional, Format: Email |
++
++#### Constraints
++
++- Each Member Profile links to a User Account with role `MEMBER`.
++- When a Librarian creates a Member's User Account, create its Member Profile in the same transaction.
++
++### LOAN
++
++A Loan records a Member borrowing a Copy and tracks its return.
++
++| Attribute | Description | Data Type | Length/Precision | Validation Rules |
++| --- | --- | --- | --- | --- |
++| id | Loan identifier | Long | 19 | Primary Key, Sequence |
++| member_id | Member Profile of the borrower | Long | 19 | Not Null, Foreign Key (MEMBER.id) |
++| copy_id | Copy borrowed by the Member | Long | 19 | Not Null, Foreign Key (COPY.id) |
++| borrowed_at | Date and time the Loan began | DateTime | - | Not Null |
++| returned_at | Date and time the Copy was returned | DateTime | - | Optional |
++
++#### Constraints
++
++- A Loan is active while `returned_at` is empty.
++- When recorded, `returned_at` must be at or after `borrowed_at`.
++- Each Copy can have at most one Active Loan.
++- Catalog changes must preserve Loan History and its links to the borrowed Copy, Book, and Member Profile.
+--- a/docs/open_questions.md
++++ b/docs/open_questions.md
+@@ -79,3 +79,58 @@
+ The vision names Catalog management and Loan History without assigning priorities.
+ 
+ **Assumed:** Adding Books is High so the Catalog can be populated. Updating and removing Books and reviewing Loan History are Medium. The remaining requirements and constraints are High.
++
++## OQ-009: Should each Loan identify an individual Copy?
++
++**Element:** Entity: COPY  
++**Raised by:** /entity-model, 2026-11-18  
++**Blocking:** No  
++**Status:** Open  
++
++FR-006 and FR-007 refer to lending and returning a Copy. The tutorial sketches a Book-level quantity and a Loan that identifies the Book.
++
++**Assumed:** Track each Copy with its own identifier and require each Loan to identify one Copy. A Book can have zero or more Copies, and availability is derived from Copies without an Active Loan.  
++
++## OQ-010: What lengths should the Catalog allow for Book titles and author credits?
++
++**Element:** Entity: BOOK.title  
++**Raised by:** /entity-model, 2026-11-18  
++**Blocking:** No  
++**Status:** Open  
++
++The glossary names both fields, and the sources give no storage limits.
++
++**Assumed:** Store a required title and author credit with up to 255 characters each.  
++
++## OQ-011: How should the Catalog record an ISBN?
++
++**Element:** Entity: BOOK.isbn  
++**Raised by:** /entity-model, 2026-11-18  
++**Blocking:** No  
++**Status:** Open  
++
++The glossary identifies ISBN as part of a Book description. It gives no rules for missing ISBNs, duplicate editions, or ISBN formatting.
++
++**Assumed:** Allow a missing ISBN. When supplied, store a unique valid canonical ISBN-13, converting a valid ISBN-10 to ISBN-13.  
++
++## OQ-012: What lengths and requirements should apply to Member Profile contact fields?
++
++**Element:** Entity: MEMBER.name  
++**Raised by:** /entity-model, 2026-11-18  
++**Blocking:** No  
++**Status:** Open  
++
++The tutorial names name and email. Sign-in uses the separate User Account.
++
++**Assumed:** Require a name of up to 255 characters and allow an optional email of up to 254 characters.  
++
++## OQ-013: Can borrow and return have the same recorded time?
++
++**Element:** Entity: LOAN.returned_at  
++**Raised by:** /entity-model, 2026-11-18  
++**Blocking:** No  
++**Status:** Open  
++
++A Loan begins on borrow and ends on return. The sources give no minimum Loan duration.
++
++**Assumed:** Allow equal timestamps and require a return timestamp to be at or after the borrow timestamp.  

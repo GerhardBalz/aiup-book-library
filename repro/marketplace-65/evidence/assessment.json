@@ -1,0 +1,53 @@
+{
+  "historical_result": "PASS for the scoped #65 recovery, clean prevention and controls",
+  "checks": {
+    "frozen_original_and_main_reproduce_diagram_route": true,
+    "recovery_no_redundant_diagram": true,
+    "recovery_missing_specifications_visible": true,
+    "recovery_warnings_retained": true,
+    "recovery_recommendation_delivered": true,
+    "clean_saved_before_sessions": true,
+    "clean_diagram_covers_all_frs": true,
+    "clean_first_recommended_spec_written": true,
+    "clean_first_spec_mapped_links_present": true,
+    "clean_post_first_spec_no_diagram": true,
+    "clean_remaining_gaps_visible": true,
+    "clean_missing_spec_authoring_pending": true,
+    "missing_link_authoring_selected": true,
+    "actual_written_link_clears_finding": true,
+    "repaired_link_navigation_advances": true,
+    "unmapped_still_requires_diagram": true,
+    "diagram_repair_resolves_mapping_gap": true,
+    "unmapped_control_does_not_hide_written_gaps": true,
+    "no_findings_suppressed": true,
+    "all_existing_use_cases_stay_draft": true
+  },
+  "candidate_source": {
+    "base": "323ec5f5c1c4afd147b2331b06793def81d03a06",
+    "candidate": "6a0db83126e2ab21d8972bebad6a9ccaee6840c9",
+    "release": "96dcee057d78e065fa874dec1a0fd363ca2030e3",
+    "patch_sha256": "055c45906ad6a8e005f377ef118e20a6d32ccec3b2a8b872b0209e71bec13f5e",
+    "core_files": 66,
+    "installation": "Whole core source overlay over pinned release setup; both host discovery aliases materialized identically. Not a published package installation.",
+    "version": "3.20.1 manifest; source provenance is authoritative",
+    "source_patch_scope": [
+      "aiup-core/skills/next/SKILL.md",
+      "aiup-core/skills/spec-review/scripts/spec_lint.py",
+      "aiup-core/skills/use-case-diagram/SKILL.md"
+    ],
+    "separate_66_candidate_applied": false,
+    "utc": "2026-11-18T16:26:29.874116+00:00"
+  },
+  "baseline_fresh_sessions": 14,
+  "candidate_fresh_sessions": 25,
+  "unique_session_identity_hashes": true,
+  "scope": "Historical evidence selected for public review; no model sessions rerun during publication",
+  "nonpasses_retained": [
+    "Clean candidate step 12 stopped on fixture write-scope interpretation; step 12b is the explicit-scope retry",
+    "Missing-link step 02 is a normal clarification; step 03 carries the actual owner answer"
+  ],
+  "limits": [
+    "Not universal termination, full CI, released-package installation, application or browser qualification",
+    "#66 policy/behavior remains separate; no review state or approval is invented"
+  ]
+}

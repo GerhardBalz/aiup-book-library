@@ -1,0 +1,7 @@
+{
+  "scope": "Retained initial model attempt; excluded from the fourteen successful baseline commands",
+  "native_exit": 0,
+  "invocation": "$next",
+  "response": "`$next` was blocked before it could read the installed skill. The execution policy rejected PowerShell, so `spec_lint.py` did not run. The checkout’s specification state and next step remain unverified.",
+  "receipt_sha256": "32b320a2668ae2edc108fd196751a29f18cf3b4fe0f7b3fbf6d406c8c42a446b"
+}

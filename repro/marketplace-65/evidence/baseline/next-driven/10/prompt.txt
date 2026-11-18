@@ -1,0 +1,5 @@
+Use $use-case-spec UC-001 for this Book Library checkout. Use the installed skill at .agents/skills/tessl__use-case-spec/SKILL.md unchanged and follow its full normal workflow, including required helper skills and validation. Run only this requested command, then stop.
+
+Use this checkout's own source documents. This is a draft specification replay; do not read other checkouts or outside evidence directories. Do not install or update packages, modify skills or setup/configuration, commit, push, access trackers, run application/browser workloads, or start any independently recommended next command. Keep lifecycle approvals with the user.
+
+A human is available for material clarification questions required by the normal skill. If an answer is required and absent, present the questions and stop before writing the affected specification. Use and report reasonable defaults only where the skill permits them.

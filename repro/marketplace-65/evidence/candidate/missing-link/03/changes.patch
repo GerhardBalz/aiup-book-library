@@ -1,0 +1,45 @@
+--- a/docs/open_questions.md
++++ b/docs/open_questions.md
+@@ -111,8 +111,12 @@
+ **Element:** UC-001 BR-003  
+ **Raised by:** /use-case-spec, 2026-11-18  
+ **Blocking:** No  
+-**Status:** Open  
++**Status:** Resolved  
+ 
+ The requirements specify Catalog search and the tutorial names the displayed Book details. They leave the search fields, match behavior, and handling of blank queries open.
+ 
+ **Assumed:** Search matches part of the title, author credit, or ISBN, ignoring letter case and surrounding query whitespace. Opening the Catalog or clearing the query shows all Books offered in the Catalog.  
++
++**Answer:** Confirm the existing replay-fixture behavior: partial matches in title, author or ISBN; case-insensitive; trim surrounding whitespace; blank query lists all offered Books.  
++**Answered by:** User (explicit product-owner answer in this conversation), 2026-11-18  
++**Resolved in:** UC-001 BR-003, UC-001 A3  
+--- a/docs/use_cases/UC-001-search-the-catalog.md
++++ b/docs/use_cases/UC-001-search-the-catalog.md
+@@ -9,7 +9,7 @@
+ **Trigger:** A Member or Librarian opens the Catalog to find a Book.  
+ **Status:** Draft  
+ 
+-**Requirements:** [FR-001, NFR-001, NFR-006, C-001, C-002, C-010, C-011, C-012](../requirements.md)
++**Requirements:** [FR-001, FR-010, NFR-001, NFR-006, C-001, C-002, C-010, C-011, C-012](../requirements.md)
+ 
+ ## Preconditions
+ 
+@@ -42,7 +42,7 @@
+ 
+ ### A3: Blank Query
+ 
+-**Trigger:** The Member or Librarian leaves the query blank or clears it (step 3)  
++**Trigger:** The query is blank after trimming surrounding whitespace (step 3)  
+ **Flow:**
+ 
+ 1. Use case continues at step 2.
+@@ -69,7 +69,7 @@
+ 
+ ### BR-003: Search Matching
+ 
+-A query matches a Book when its text appears in the title, author credit, or ISBN. Ignore letter case and surrounding whitespace in the query. A Book without an ISBN can still match by title or author credit. A query with no text after trimming shows all Books in the Catalog.
++Trim surrounding whitespace from the query. If the query is blank after trimming, show all Books offered in the Catalog. Otherwise, match a Book when the query appears anywhere in its title, author credit, or ISBN, ignoring letter case. A Book without an ISBN can still match by title or author credit.
+ 
+ ### BR-004: Result Order
+ 

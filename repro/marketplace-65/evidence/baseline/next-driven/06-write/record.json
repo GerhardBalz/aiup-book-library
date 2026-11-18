@@ -1,0 +1,97 @@
+{
+  "invocation": "$stack",
+  "exit": 0,
+  "elapsed_seconds": 84.29,
+  "finished_utc": "2026-11-18T14:42:33.732362+00:00",
+  "changed_files": [
+    "docs/architecture/stack.md"
+  ],
+  "protected_files_changed": [],
+  "read_only_met": null,
+  "before_manifest_sha256": "6649b3c87d78720e7dc0991fb2c76c5e01006e309f9f6f74bff76674422a0bd8",
+  "after_manifest_sha256": "8f8cf75b8286ac668f4334c4bc84f8178f0b6c4eddcaa535efd64ac07a8d96b1",
+  "variant": "baseline",
+  "case": "next-driven",
+  "step": "06-write",
+  "source_session_id_sha256": [
+    "25e427e8a1bd215c1d8ba0efa9dd28c34a73bf94aab6029cdb69c740a4af9cb1"
+  ],
+  "historical_evidence": true,
+  "original_files": {
+    "prompt.txt": {
+      "original_sha256": "002242d6fa694005437d353d1060c01ba69e90a97c6320c887876ccd4d9923f0",
+      "published_sha256": "fd2038295660b76a40071419a67d5ce3155356efe1c066437fef75bfe69b503b",
+      "sanitized": true
+    },
+    "response.md": {
+      "original_sha256": "17e6df5c4ad1a4fd61140e014a717dc6d9ac32bfd9d2b856b52214ff3759486c",
+      "published_sha256": "95982e672e170c8d9f2ff30fa8f09c6d1f37f76b1c7da19b5827462bea8a9f6b",
+      "sanitized": true
+    },
+    "changes.patch": {
+      "original_sha256": "76131021151b1b98cdf915ffee4f2d03c991c70b02ed1168b0d45f751283776f",
+      "published_sha256": "4683564ab9bfc7cab986fbbe98c933cf2977aeaadb078e291afda7d27ed9687c",
+      "sanitized": true
+    }
+  },
+  "snapshots": {
+    "before": {
+      "original_archive_sha256": "e6da67385c23537a17e26278a8f5cf8d9bc3a499c2821a34033cae665525217e",
+      "original_manifest_sha256": "6649b3c87d78720e7dc0991fb2c76c5e01006e309f9f6f74bff76674422a0bd8",
+      "selected_documents": {
+        "docs/entity_model.md": {
+          "original_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "published_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "sanitized": false
+        },
+        "docs/glossary.md": {
+          "original_sha256": "dfdc4f868e1215984428559d3ee920c33e2c94446694358fd2dbe45d2166e3ca",
+          "published_sha256": "117c8833c62e4b5ea082c27c26c24509f48a8916a7dc0ce712c507a94c6d1fb2",
+          "sanitized": true
+        },
+        "docs/open_questions.md": {
+          "original_sha256": "96af560aba532cae5d656d98ac468bac0de085ea3a47e1213d6d439719093b6a",
+          "published_sha256": "90f24ca4c40b1ca1968e1a71029297d139828ec7bd8f49655187c7480740ce8b",
+          "sanitized": true
+        },
+        "docs/requirements.md": {
+          "original_sha256": "c78c9569c4192218f8c3c6ffdfb6c8650be3b9628c8d92ee734193dfdc14a31f",
+          "published_sha256": "af2d43803bc358fbe82b32c9df11919dd925efa326969d82d4378043b45b74bc",
+          "sanitized": true
+        }
+      }
+    },
+    "after": {
+      "original_archive_sha256": "64dcd9940c699daf1edf425ac0734c18d97421a3ac7da44df26fe180c0b51c24",
+      "original_manifest_sha256": "8f8cf75b8286ac668f4334c4bc84f8178f0b6c4eddcaa535efd64ac07a8d96b1",
+      "selected_documents": {
+        "docs/architecture/stack.md": {
+          "original_sha256": "8cea586ee0c4527d65d1e1769fcf1376ce516b10ffbee2cf528a7c4cae77327c",
+          "published_sha256": "2f3c14b8caad4728a759069c6855cc16db8ec5cf29b8dbe2a1cd45658fb99d8b",
+          "sanitized": true
+        },
+        "docs/entity_model.md": {
+          "original_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "published_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "sanitized": false
+        },
+        "docs/glossary.md": {
+          "original_sha256": "dfdc4f868e1215984428559d3ee920c33e2c94446694358fd2dbe45d2166e3ca",
+          "published_sha256": "117c8833c62e4b5ea082c27c26c24509f48a8916a7dc0ce712c507a94c6d1fb2",
+          "sanitized": true
+        },
+        "docs/open_questions.md": {
+          "original_sha256": "96af560aba532cae5d656d98ac468bac0de085ea3a47e1213d6d439719093b6a",
+          "published_sha256": "90f24ca4c40b1ca1968e1a71029297d139828ec7bd8f49655187c7480740ce8b",
+          "sanitized": true
+        },
+        "docs/requirements.md": {
+          "original_sha256": "c78c9569c4192218f8c3c6ffdfb6c8650be3b9628c8d92ee734193dfdc14a31f",
+          "published_sha256": "af2d43803bc358fbe82b32c9df11919dd925efa326969d82d4378043b45b74bc",
+          "sanitized": true
+        }
+      }
+    }
+  },
+  "disclosure": "Selected sanitized derivative; raw model/tool event stream and private preparation records are not included"
+}

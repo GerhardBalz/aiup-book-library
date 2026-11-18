@@ -1,0 +1,3 @@
+Use $next for this Book Library checkout. Use the installed skill at .agents/skills/tessl__next/SKILL.md unchanged and follow its full normal workflow, including required helper skills and validation. Run only this requested command, then stop.
+
+Use this checkout's own source documents. This is a draft specification replay; do not read other checkouts or outside evidence directories. Do not install or update packages, modify skills or setup/configuration, commit, push, access trackers, run application/browser workloads, or start any independently recommended next command. Keep lifecycle approvals with the user.

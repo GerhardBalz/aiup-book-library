@@ -1,0 +1,16 @@
+--- a/docs/open_questions.md
++++ b/docs/open_questions.md
+@@ -9,9 +9,12 @@
+ **Element:** FR-013  
+ **Raised by:** /requirements, 2026-11-18  
+ **Blocking:** Yes  
+-**Status:** Open  
++**Status:** Answered  
+ 
+ The tutorial identifies two options. Block removal after any Loan, or withdraw the Book from the Catalog while retaining its record. Both options must preserve Loan History.
++
++**Answer:** Withdraw it from the Catalog and retain its record. Preserve Loan History.  
++**Answered by:** Product owner (explicit user answer in this conversation), 2026-11-18  
+ 
+ ## OQ-002: What response-time target should apply to Catalog search?
+ 

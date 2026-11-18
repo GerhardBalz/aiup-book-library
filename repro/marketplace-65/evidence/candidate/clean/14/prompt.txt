@@ -1,0 +1,25 @@
+Use $use-case-spec UC-001 for this Book Library checkout. Use the installed skill at .agents/skills/tessl__use-case-spec/SKILL.md unchanged and follow its full normal workflow, including required helper skills and validation. Run only this requested command, then stop.
+
+Use this checkout's own source documents. This is a draft specification replay; do not read other checkouts or outside evidence directories. Do not install or update packages, modify skills or setup/configuration, commit, push, access trackers, run application/browser workloads, or start any independently recommended next command. Keep lifecycle approvals with the user.
+
+A human is available for material clarification questions required by the normal skill. If an answer is required and absent, present the questions and stop before writing the affected specification. Use and report reasonable defaults only where the skill permits them.
+
+The authorized replay includes this requested skill's normal draft-document writes under {CONSUMER}\docs. Preserve all other checkouts. Follow the skill's normal clarification and approval rules; this does not grant lifecycle approval.
+
+Actual product-owner answers for this disposable fixture only:
+{
+  "question": "OQ-001: What happens when a Librarian removes a Book that has Loan History?",
+  "answer": "Withdraw it from the Catalog and retain its record. Preserve Loan History.",
+  "source": "Explicit user answer in this conversation on 2026-11-18",
+  "scope": "This disposable Book Library replay checkout only.",
+  "authorization_clarification_by_replay_controller": {
+    "basis": "The user authorized the fresh next-driven skill replay and supplied the business answer above. Normal draft-document authoring in this isolated fixture is within that task.",
+    "requirements_skill_write_paths": [
+      "{CONSUMER}/docs/requirements.md",
+      "{CONSUMER}/docs/glossary.md",
+      "{CONSUMER}/docs/open_questions.md"
+    ],
+    "unrelated_project_to_preserve": "{PRIVATE_PREPARATION}/docs",
+    "explanation": "The earlier phrase about sandbox specifications refers to that unrelated original project, not to this Book Library fixture. This clarifies path ownership; it does not add a new action or business answer."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "invocation": "$stack",
+  "exit": 0,
+  "elapsed_seconds": 37.19,
+  "finished_utc": "2026-11-18T14:40:21.469107+00:00",
+  "changed_files": [],
+  "protected_files_changed": [],
+  "read_only_met": null,
+  "before_manifest_sha256": "6649b3c87d78720e7dc0991fb2c76c5e01006e309f9f6f74bff76674422a0bd8",
+  "after_manifest_sha256": "6649b3c87d78720e7dc0991fb2c76c5e01006e309f9f6f74bff76674422a0bd8",
+  "variant": "baseline",
+  "case": "next-driven",
+  "step": "06-clarify",
+  "source_session_id_sha256": [
+    "4fc0b8ce91a99d019068706ccbaae4c7fe9bc8b10ed3c6eee9911c08f6551ac6"
+  ],
+  "historical_evidence": true,
+  "original_files": {
+    "prompt.txt": {
+      "original_sha256": "28637466a080d58a3be7d75eda72c44a5aba5fcf0a7186090ccdab5160c4ade0",
+      "published_sha256": "9de8f3737248b87b0f49ff01f4d21d7ca3de8cc6032e5b8655212ff71ec13f1e",
+      "sanitized": true
+    },
+    "response.md": {
+      "original_sha256": "6cb7c3b7cfce104fa3670f4c8069ea7d9a1f9b1d0bd609f13e578e99bc417a5a",
+      "published_sha256": "6cb7c3b7cfce104fa3670f4c8069ea7d9a1f9b1d0bd609f13e578e99bc417a5a",
+      "sanitized": false
+    },
+    "changes.patch": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitized": false
+    }
+  },
+  "snapshots": {
+    "before": {
+      "original_archive_sha256": "3bc8173ada7de431827b300cffc99c7f7faf0bb06ce0358159c48f87454e547e",
+      "original_manifest_sha256": "6649b3c87d78720e7dc0991fb2c76c5e01006e309f9f6f74bff76674422a0bd8",
+      "selected_documents": {
+        "docs/entity_model.md": {
+          "original_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "published_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "sanitized": false
+        },
+        "docs/glossary.md": {
+          "original_sha256": "dfdc4f868e1215984428559d3ee920c33e2c94446694358fd2dbe45d2166e3ca",
+          "published_sha256": "117c8833c62e4b5ea082c27c26c24509f48a8916a7dc0ce712c507a94c6d1fb2",
+          "sanitized": true
+        },
+        "docs/open_questions.md": {
+          "original_sha256": "96af560aba532cae5d656d98ac468bac0de085ea3a47e1213d6d439719093b6a",
+          "published_sha256": "90f24ca4c40b1ca1968e1a71029297d139828ec7bd8f49655187c7480740ce8b",
+          "sanitized": true
+        },
+        "docs/requirements.md": {
+          "original_sha256": "c78c9569c4192218f8c3c6ffdfb6c8650be3b9628c8d92ee734193dfdc14a31f",
+          "published_sha256": "af2d43803bc358fbe82b32c9df11919dd925efa326969d82d4378043b45b74bc",
+          "sanitized": true
+        }
+      }
+    },
+    "after": {
+      "original_archive_sha256": "1409914e240541a883e13519f3ea235e4f7c3ff0cd06bdf0bf04bbd0ce009e8c",
+      "original_manifest_sha256": "6649b3c87d78720e7dc0991fb2c76c5e01006e309f9f6f74bff76674422a0bd8",
+      "selected_documents": {
+        "docs/entity_model.md": {
+          "original_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "published_sha256": "3c0ca10cf2c6cf924dbed46d9d78aab420770122686b316480969a2079c5c6b0",
+          "sanitized": false
+        },
+        "docs/glossary.md": {
+          "original_sha256": "dfdc4f868e1215984428559d3ee920c33e2c94446694358fd2dbe45d2166e3ca",
+          "published_sha256": "117c8833c62e4b5ea082c27c26c24509f48a8916a7dc0ce712c507a94c6d1fb2",
+          "sanitized": true
+        },
+        "docs/open_questions.md": {
+          "original_sha256": "96af560aba532cae5d656d98ac468bac0de085ea3a47e1213d6d439719093b6a",
+          "published_sha256": "90f24ca4c40b1ca1968e1a71029297d139828ec7bd8f49655187c7480740ce8b",
+          "sanitized": true
+        },
+        "docs/requirements.md": {
+          "original_sha256": "c78c9569c4192218f8c3c6ffdfb6c8650be3b9628c8d92ee734193dfdc14a31f",
+          "published_sha256": "af2d43803bc358fbe82b32c9df11919dd925efa326969d82d4378043b45b74bc",
+          "sanitized": true
+        }
+      }
+    }
+  },
+  "disclosure": "Selected sanitized derivative; raw model/tool event stream and private preparation records are not included"
+}

@@ -1,0 +1,48 @@
+{
+  "invocation": "$next",
+  "exit": 0,
+  "elapsed_seconds": 49.87,
+  "finished_utc": "2026-11-18T13:38:14.777468+00:00",
+  "changed_files": [],
+  "protected_files_changed": [],
+  "read_only_met": true,
+  "before_manifest_sha256": "13a5372b4e5198ee6c1449dfbc645dcf22371bbc89d87959a3d74ec45b8ec4d9",
+  "after_manifest_sha256": "13a5372b4e5198ee6c1449dfbc645dcf22371bbc89d87959a3d74ec45b8ec4d9",
+  "variant": "baseline",
+  "case": "next-driven",
+  "step": "01d",
+  "source_session_id_sha256": [
+    "d6903a20749dbe5d708a0daf402b2c9e98f0380e887d627a42bf0cfcbf1363f6"
+  ],
+  "historical_evidence": true,
+  "original_files": {
+    "prompt.txt": {
+      "original_sha256": "035b9ba8077824278d9c990326c649ea0c65cdcb86ce8ff649f8e6f184038ca7",
+      "published_sha256": "16d17c51e75061b082df493723f6660c8257b21b7f03e11015ccb5ff83b97e6c",
+      "sanitized": true
+    },
+    "response.md": {
+      "original_sha256": "68485376775f368aa1a8c7428b04d07d3b290959b3f523222c6ec1dd1825ae6b",
+      "published_sha256": "68485376775f368aa1a8c7428b04d07d3b290959b3f523222c6ec1dd1825ae6b",
+      "sanitized": false
+    },
+    "changes.patch": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitized": false
+    }
+  },
+  "snapshots": {
+    "before": {
+      "original_archive_sha256": "bee192cde5096f584e8ca765da076f064792344ef1a0899f578657539d1b6282",
+      "original_manifest_sha256": "13a5372b4e5198ee6c1449dfbc645dcf22371bbc89d87959a3d74ec45b8ec4d9",
+      "selected_documents": {}
+    },
+    "after": {
+      "original_archive_sha256": "622f9d69fed2bc3920c3ee3fa10e992921ac1177b958f17d216bd1e4dc86b991",
+      "original_manifest_sha256": "13a5372b4e5198ee6c1449dfbc645dcf22371bbc89d87959a3d74ec45b8ec4d9",
+      "selected_documents": {}
+    }
+  },
+  "disclosure": "Selected sanitized derivative; raw model/tool event stream and private preparation records are not included"
+}

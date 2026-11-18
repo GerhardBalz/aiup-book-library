@@ -1,0 +1,470 @@
+[
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "01d",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "d6903a20749dbe5d708a0daf402b2c9e98f0380e887d627a42bf0cfcbf1363f6"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "02",
+    "invocation": "$requirements",
+    "exit": 0,
+    "changed_files": [
+      "docs/glossary.md",
+      "docs/open_questions.md",
+      "docs/requirements.md"
+    ],
+    "source_session_id_sha256": [
+      "b2d8c541ab83270292e67b0bc32c7e42ddabb1de0cb6956fc792820815bfea4e"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "03",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "6b248de9897af6f3cf0e515860c7c1c743f0d95e937d957c1f765a8cff15dc7e"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "04",
+    "invocation": "$entity-model",
+    "exit": 0,
+    "changed_files": [
+      "docs/entity_model.md",
+      "docs/open_questions.md"
+    ],
+    "source_session_id_sha256": [
+      "4b085d1f532f68be114e6565c1debe840925b4e230be251a7d588f757f31a3ab"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "05",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "dbd1be458f8eefa3edfb52c035b778226c66fa446a99f73d09a5eaa460f6a14a"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "06-clarify",
+    "invocation": "$stack",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "4fc0b8ce91a99d019068706ccbaae4c7fe9bc8b10ed3c6eee9911c08f6551ac6"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "06-write",
+    "invocation": "$stack",
+    "exit": 0,
+    "changed_files": [
+      "docs/architecture/stack.md"
+    ],
+    "source_session_id_sha256": [
+      "25e427e8a1bd215c1d8ba0efa9dd28c34a73bf94aab6029cdb69c740a4af9cb1"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "07",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "384ac8fc50c6ecc9dc8dc235bddde380b84370463715e4c42d70f9593566f96a"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "08",
+    "invocation": "$use-case-diagram",
+    "exit": 0,
+    "changed_files": [
+      "docs/use_cases.puml"
+    ],
+    "source_session_id_sha256": [
+      "f646e9b53129e5cfc140c2a69cff276a0cddc9cdec08f11b1ef689f1d09e7a46"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "09",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "e413c178ba328d3b7c445001adf9a545d64f2ec4ac2db6cdda4b734af43ec83e"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "10",
+    "invocation": "$use-case-spec UC-001",
+    "exit": 0,
+    "changed_files": [
+      "docs/open_questions.md",
+      "docs/use_cases/UC-001-search-the-catalog.md"
+    ],
+    "source_session_id_sha256": [
+      "01c219d8343bf9d8f11ec0f12bbe916cce603f97417b212b4a82e1eadb69adfb"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "11",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "ac0576ce1e23794383419f9fa8d3fa08cd626b8baa6f0b856dcea92b8439c98b"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "12-cycle1-diagram",
+    "invocation": "$use-case-diagram",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "225e93b940250a3d7d11623ce3b9f2c573851e5991e82c6ca5bcca0a24d95c57"
+    ]
+  },
+  {
+    "variant": "baseline",
+    "case": "next-driven",
+    "step": "13-cycle1-next",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "3ba3dc74c256f27a6e3197feebaa3aee37cbc7fc6ac0224e48468f09dd54ffc0"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "recovery",
+    "step": "01",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "6a5d4b9938d9b5df4cef0e4ccd921f81d317820d88d71b9989534e19afaa52fd"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "recovery",
+    "step": "02",
+    "invocation": "$spec-review UC-001",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "8dd2c78e4d840ab888bd18d1a4bd226f437aa331a57e359453a48ed1a88ee2d9"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "01",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "b308d86dca0d893f7353a095c8133de7e4b60c2f18933f4805e0cba7409b5c6e"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "02",
+    "invocation": "$requirements",
+    "exit": 0,
+    "changed_files": [
+      "docs/glossary.md",
+      "docs/open_questions.md",
+      "docs/requirements.md"
+    ],
+    "source_session_id_sha256": [
+      "a977c7e85d012f5d2565cb4028c0d337a5e185df2058ec574ec30c77046d5a9d"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "03",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "17876d4d9d5d946ca81e091d7d3af287bbf6c32c3bed8f2872f87cd21917843f"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "04",
+    "invocation": "$entity-model",
+    "exit": 0,
+    "changed_files": [
+      "docs/entity_model.md",
+      "docs/open_questions.md"
+    ],
+    "source_session_id_sha256": [
+      "bc6276d90115732bdcd3a0f91080dbc2095988d2241ff3040e993d332490bdd5"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "05",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "6c8e6400ee30b02c73a1d6a3bd9bc5b3b3186b05f7b3d59e2c1c438d7deba71b"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "06",
+    "invocation": "$stack",
+    "exit": 0,
+    "changed_files": [
+      "docs/architecture/stack.md"
+    ],
+    "source_session_id_sha256": [
+      "b4c45adddcdd130fa921856ab09a47f5e27afd5b2572a9f7fcdeba549e6ca3ee"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "07",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "94507a59a7c6dd4949e405b161cbe89714c925fa02be7acf41b1a877b677469e"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "08",
+    "invocation": "$use-case-diagram",
+    "exit": 0,
+    "changed_files": [
+      "docs/use_cases.puml"
+    ],
+    "source_session_id_sha256": [
+      "a75f708c41509fee91039824984df1739e22d7f8122e4c1a7238c9090645f932"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "09",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "f616b0ac660c05da04915a233d131f69bd3a4001263dc69a193e08c451463615"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "10",
+    "invocation": "$open-questions answer OQ-001",
+    "exit": 0,
+    "changed_files": [
+      "docs/open_questions.md"
+    ],
+    "source_session_id_sha256": [
+      "2d4550657b5b30e0eb12d224ec1d1f86f89d2f6cd6da966239b1ef319c287d8a"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "11",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "bba22fd422c3705106fdb3ce3ac0c524edacf1dbd56e2f829c389cc416221c54"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "12",
+    "invocation": "$requirements",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "311830f112ea4a8c3b8f39b401b4c58d5f7e0d220f80fd7cfe6aca2cc621352a"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "12b",
+    "invocation": "$requirements",
+    "exit": 0,
+    "changed_files": [
+      "docs/glossary.md",
+      "docs/open_questions.md",
+      "docs/requirements.md"
+    ],
+    "source_session_id_sha256": [
+      "0f8d3d6974da2675a826d1314641ef399f5f21385c88f5f7aa380e0a11ad7740"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "13",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "650c765d994571a59b4d7ceb1a4c44e5e1422b8b1e15d851685192bfce9c56d4"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "14",
+    "invocation": "$use-case-spec UC-001",
+    "exit": 0,
+    "changed_files": [
+      "docs/open_questions.md",
+      "docs/use_cases/UC-001-search-the-catalog.md"
+    ],
+    "source_session_id_sha256": [
+      "7596b710e5fdb140d8f94326d4d3b03503769b26781674bc67c111fe4e785895"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "clean",
+    "step": "15",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "3426eb6c274e3a75332401892cc3c8d03d63c6dbd7dc21788bc49b82af13f847"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "missing-link",
+    "step": "01",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "ae5041a08e54ce7e2ba3055cf56f51004d06c587a8e4287a77611955caa41f08"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "missing-link",
+    "step": "02",
+    "invocation": "$use-case-spec UC-001",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "747b98c0832a318bedf25bc03d2796210da9f736b9f300a0cba34af6c04439c9"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "missing-link",
+    "step": "03",
+    "invocation": "$use-case-spec UC-001",
+    "exit": 0,
+    "changed_files": [
+      "docs/open_questions.md",
+      "docs/use_cases/UC-001-search-the-catalog.md"
+    ],
+    "source_session_id_sha256": [
+      "a12ee265d02919ac143195c22a0fbe0feed4c024d2224690f598cb7ee311cb13"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "missing-link",
+    "step": "04",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "1380edd809f0c91ddd3fad9f6455f76a6099f4b0861e69d4234724e085ab3c69"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "unmapped-v2",
+    "step": "01",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "cac4689709460fc839ff4c3470e7ba559471f2ab83a6cbe6ddeec8e222152e56"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "unmapped-v2",
+    "step": "02",
+    "invocation": "$use-case-diagram",
+    "exit": 0,
+    "changed_files": [
+      "docs/use_cases.puml"
+    ],
+    "source_session_id_sha256": [
+      "25cb17fbaec0f2b4448662b74ed46b0a81a47a4e6f7a09427a5eed623701890b"
+    ]
+  },
+  {
+    "variant": "candidate",
+    "case": "unmapped-v2",
+    "step": "03",
+    "invocation": "$next",
+    "exit": 0,
+    "changed_files": [],
+    "source_session_id_sha256": [
+      "eee8d4f557f33b3d769e60969e46af05e34c9609a83c9b063b21efd7843002c3"
+    ]
+  }
+]

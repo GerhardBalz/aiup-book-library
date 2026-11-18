@@ -1,0 +1,3 @@
+Created the [draft Book Library use case diagram](<{CONSUMER}/docs/use_cases.puml>). Static validation passed for the PlantUML structure, both actor links, and traceability from 10 use cases to all 14 functional requirements. PlantUML rendering was unverified.
+
+Member and Librarian share Sign In and Search the Catalog. Book availability is part of Search the Catalog. Book removal is a separate Librarian goal because it has its own rule. Under your OQ-001 answer, removing a Book with Loan History withdraws it from the Catalog while retaining the Book record and preserving its Loan History.

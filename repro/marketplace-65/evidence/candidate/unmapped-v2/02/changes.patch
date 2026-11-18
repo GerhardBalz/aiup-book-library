@@ -1,0 +1,11 @@
+--- a/docs/use_cases.puml
++++ b/docs/use_cases.puml
+@@ -7,7 +7,7 @@
+ rectangle "Book Library" {
+     ' FR-001, FR-010
+     usecase "UC-001\nSearch the Catalog" as UC001
+-    ' Mapping not recorded
++    ' Requirements: FR-002
+     usecase "UC-002\nBorrow a Book" as UC002
+     ' FR-003, FR-013
+     usecase "UC-003\nReturn a Book" as UC003

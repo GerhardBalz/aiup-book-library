@@ -1,0 +1,56 @@
+{
+  "book_library_base": "3bc0617a9018d66d1b812f67b63aae63e6d1b8f8",
+  "registry_core_version": "3.20.1",
+  "registry_source_tag": "aiup-core-v3.20.1",
+  "registry_source_commit": "96dcee057d78e065fa874dec1a0fd363ca2030e3",
+  "current_upstream_commit": "323ec5f5c1c4afd147b2331b06793def81d03a06",
+  "stack": "absent; unchanged prerequisite, compare full pending list",
+  "setup": "Current-session authoring followed installed skills; not a fresh-agent qualification. Quality targets remain undecided by user choice. At least one written UC is present; remaining mapped UCs lack specifications.",
+  "files": [
+    {
+      "path": "docs/vision.md",
+      "sha256": "d7cdee7a3a572d03258504b0e1793dd743c239f2c86cf385156f70d3135f6d21",
+      "sha256_lf": "3543cd22d1a94f8168f8dc51e98b8a9d22899a260a6355b12936a17c5647f06c"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "eac95f0b0ce9802c97a36fa5b35982f6898150c4dd3cce50f43c83fde445d684",
+      "sha256_lf": "4f5b91a3817956abc7dfa0b9373fc42cd56a09bad4adb53fb869e1064713d8f0"
+    },
+    {
+      "path": "docs/requirements.md",
+      "sha256": "f833ec98f05c2a4294ab15a8115c67dc5db985c84ced5a83ba2625883376d924",
+      "sha256_lf": "f833ec98f05c2a4294ab15a8115c67dc5db985c84ced5a83ba2625883376d924"
+    },
+    {
+      "path": "docs/glossary.md",
+      "sha256": "b3d826745af20adc27b93fe837efc1a7eb1c1ab31f200b3c4e15217176550569",
+      "sha256_lf": "b3d826745af20adc27b93fe837efc1a7eb1c1ab31f200b3c4e15217176550569"
+    },
+    {
+      "path": "docs/entity_model.md",
+      "sha256": "609c9d546c145c01f177533e4b78c73f4a262af080ebf3e276e6c00b8a2fd55d",
+      "sha256_lf": "609c9d546c145c01f177533e4b78c73f4a262af080ebf3e276e6c00b8a2fd55d"
+    },
+    {
+      "path": "docs/open_questions.md",
+      "sha256": "8753544dc97d8eacf9462fd94458ef1a3f267c06a90ed64350816cb53fb59f04",
+      "sha256_lf": "8753544dc97d8eacf9462fd94458ef1a3f267c06a90ed64350816cb53fb59f04"
+    },
+    {
+      "path": "docs/use_cases.puml",
+      "sha256": "c6632b55dfe6e2604f16cfd9625a7e0041f6de3b8380b13865289dbed9f3f3f0",
+      "sha256_lf": "c6632b55dfe6e2604f16cfd9625a7e0041f6de3b8380b13865289dbed9f3f3f0"
+    },
+    {
+      "path": "docs/use_cases/UC-001-sign-in.md",
+      "sha256": "1893118f6edfb115cc9b5ecffdb55941d1f756fc200911bef8a549dd42f1f508",
+      "sha256_lf": "1893118f6edfb115cc9b5ecffdb55941d1f756fc200911bef8a549dd42f1f508"
+    }
+  ],
+  "tool_sha256_lf": {
+    "registry-3.20.1": "0cab298125c7ad64910ea287f0ea18b6ba75552d2e5aba9473df58932e4bc7a2",
+    "upstream-main": "37cee372c61d7bf42bc0156f68b9e5d4c4359307b9381065cdd867c56373a409"
+  },
+  "line_endings": "Raw hashes retain original evidence; canonical LF text hashes permit equivalent platform checkouts."
+}

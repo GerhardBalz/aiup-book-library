@@ -1,0 +1,3 @@
+Added the missing FR-002 trace to UC-002, Borrow a Book. All 13 functional requirements now have diagram traces. The nine use cases passed the goal-level check and required no merges or splits. [Book Library use case diagram](<{CONSUMER}/docs/use_cases.puml:10>)
+
+Static checks passed for PlantUML structure, actor links, use case IDs, and draft styling. No local PlantUML renderer was available. Spec-review lint reported eight missing draft specifications for UC-002 through UC-009 and 11 functional requirements without specification links. No lifecycle statuses were changed.

@@ -1,0 +1,41 @@
+@startuml Use Cases Overview
+left to right direction
+
+actor "Member" as member
+actor "Librarian" as librarian
+
+rectangle "Book Library" {
+    ' FR-001, FR-010
+    usecase "UC-001\nSearch the Catalog" as UC001
+    ' FR-002
+    usecase "UC-002\nBorrow a Book" as UC002
+    ' FR-003, FR-013
+    usecase "UC-003\nReturn a Book" as UC003
+    ' FR-004
+    usecase "UC-004\nView Active Loans" as UC004
+    ' FR-005, FR-006
+    usecase "UC-005\nMaintain Book Details" as UC005
+    ' FR-007, FR-013
+    usecase "UC-006\nRemove a Book from the Catalog" as UC006
+    ' FR-008
+    usecase "UC-007\nCreate a Member Account" as UC007
+    ' FR-009
+    usecase "UC-008\nView My Loans" as UC008
+    ' FR-011, FR-012
+    usecase "UC-009\nSign In" as UC009
+}
+
+member --> UC001
+member --> UC002
+member --> UC003
+member --> UC008
+member --> UC009
+
+librarian --> UC001
+librarian --> UC004
+librarian --> UC005
+librarian --> UC006
+librarian --> UC007
+librarian --> UC009
+
+@enduml

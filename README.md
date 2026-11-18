@@ -1,5 +1,8 @@
 # Book Library
 
+This branch provides [reproduction and verification evidence for Marketplace #65](repro/marketplace-65/README.md).
+Its draft specification fixtures exercise navigator routing; they do not approve application behavior.
+
 The **Book Library** is the reference example project for the
 [AI Unified Process](https://unifiedprocess.ai) tutorial. It is built step by step throughout
 the tutorial to demonstrate how to drive a real Vaadin and jOOQ application from requirements

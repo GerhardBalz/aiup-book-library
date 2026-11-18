@@ -1,0 +1,441 @@
+{
+  "utc": "2026-11-18T20:28:08.677563+00:00",
+  "scope": "Fresh deterministic public-payload replay before branch publication",
+  "candidate_commit": "2303da7c748a4c4f82b6f5e25415a718dfb93df9",
+  "candidate_patch_sha256": "055c45906ad6a8e005f377ef118e20a6d32ccec3b2a8b872b0209e71bec13f5e",
+  "runner_sha256": "78f0b153f669e5121a4bd18db6f25e8fa2fff27b23741c9bc3cb67c4924cf0fd",
+  "source_runtime_matches_qualified_core": true,
+  "runtime_identity_scope": {
+    "qualified_runtime_files": 66,
+    "pinned_checkout_core_files": 1343,
+    "different_qualified_runtime_files": [],
+    "additional_repository_files_not_runtime": 1277
+  },
+  "matrix_reused_from_initial_publication_check": true,
+  "reuse_basis": "Only documentary trace export newline handling changed; exact runner/fixture/tool/runtime inputs and command reverified",
+  "bug_reproduced": true,
+  "candidate_contract_met": true,
+  "source_inputs_preserved": true,
+  "variants": [
+    {
+      "label": "registry-3.20.1",
+      "script_sha256": "3da660197d8215e5d4fd43519218f903bb5cac41e195b5d494709a254072e572",
+      "cases": [
+        {
+          "case": "mapped-missing-spec",
+          "contract_met": false,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/use-case-diagram",
+            "/spec-review UC-001",
+            "/use-case-spec UC-002",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-002",
+            "FR-003",
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 8,
+            "warnings": 9,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        },
+        {
+          "case": "unmapped-control",
+          "contract_met": true,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/use-case-diagram",
+            "/spec-review UC-001",
+            "/use-case-spec UC-003",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-002",
+            "FR-003",
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 7,
+            "warnings": 9,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        },
+        {
+          "case": "existing-spec-missing-link",
+          "contract_met": false,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/use-case-diagram",
+            "/spec-review UC-001",
+            "/use-case-spec UC-003",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-002",
+            "FR-003",
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 7,
+            "warnings": 9,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        },
+        {
+          "case": "repaired-link",
+          "contract_met": false,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/use-case-diagram",
+            "/spec-review UC-001",
+            "/use-case-spec UC-003",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 7,
+            "warnings": 7,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        }
+      ],
+      "consumer_pending_commands": [
+        "/stack",
+        "/use-case-diagram",
+        "/spec-review UC-001",
+        "/use-case-spec UC-002",
+        "/architecture-decision"
+      ],
+      "consumer_next_exit": 0
+    },
+    {
+      "label": "upstream-main",
+      "script_sha256": "65bf77e8294ddfc63a6df5cc563d103f90303365053a6e920f08fc25f06223b1",
+      "cases": [
+        {
+          "case": "mapped-missing-spec",
+          "contract_met": false,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/use-case-diagram",
+            "/spec-review UC-001",
+            "/use-case-spec UC-002",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-002",
+            "FR-003",
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 8,
+            "warnings": 9,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        },
+        {
+          "case": "unmapped-control",
+          "contract_met": true,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/use-case-diagram",
+            "/spec-review UC-001",
+            "/use-case-spec UC-003",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-002",
+            "FR-003",
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 7,
+            "warnings": 9,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        },
+        {
+          "case": "existing-spec-missing-link",
+          "contract_met": false,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/use-case-diagram",
+            "/spec-review UC-001",
+            "/use-case-spec UC-003",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-002",
+            "FR-003",
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 7,
+            "warnings": 9,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        },
+        {
+          "case": "repaired-link",
+          "contract_met": false,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/use-case-diagram",
+            "/spec-review UC-001",
+            "/use-case-spec UC-003",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 7,
+            "warnings": 7,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        }
+      ],
+      "consumer_pending_commands": [
+        "/stack",
+        "/use-case-diagram",
+        "/spec-review UC-001",
+        "/use-case-spec UC-002",
+        "/architecture-decision"
+      ],
+      "consumer_next_exit": 0
+    },
+    {
+      "label": "candidate",
+      "script_sha256": "c7f726630bb2fddfe206bb417b7246f14ef546dd9b3f83f50c849c9e2f76c54f",
+      "cases": [
+        {
+          "case": "mapped-missing-spec",
+          "contract_met": true,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/spec-review UC-001",
+            "/use-case-spec UC-002",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-002",
+            "FR-003",
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 8,
+            "warnings": 9,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        },
+        {
+          "case": "unmapped-control",
+          "contract_met": true,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/use-case-diagram",
+            "/spec-review UC-001",
+            "/use-case-spec UC-003",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-002",
+            "FR-003",
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 7,
+            "warnings": 9,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        },
+        {
+          "case": "existing-spec-missing-link",
+          "contract_met": true,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/use-case-spec UC-002",
+            "/spec-review UC-001",
+            "/use-case-spec UC-003",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-002",
+            "FR-003",
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 7,
+            "warnings": 9,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        },
+        {
+          "case": "repaired-link",
+          "contract_met": true,
+          "next_exit": 0,
+          "lint_exit": 1,
+          "pending_commands": [
+            "/stack",
+            "/spec-review UC-001",
+            "/use-case-spec UC-003",
+            "/architecture-decision"
+          ],
+          "uncovered_FRs": [
+            "FR-004",
+            "FR-005",
+            "FR-006",
+            "FR-007",
+            "FR-008",
+            "FR-009",
+            "FR-010"
+          ],
+          "lint_counts": {
+            "errors": 7,
+            "warnings": 7,
+            "suppressed": 0
+          },
+          "inputs_preserved": true,
+          "git_context": "isolated file fixture without repository history"
+        }
+      ],
+      "consumer_pending_commands": [
+        "/stack",
+        "/spec-review UC-001",
+        "/use-case-spec UC-002",
+        "/architecture-decision"
+      ],
+      "consumer_next_exit": 0
+    }
+  ],
+  "environment": {
+    "python": "3.14.6",
+    "git": "git version 2.55.0.windows.3"
+  },
+  "historical_traces_verified": {
+    "baseline_sessions": 14,
+    "candidate_sessions": 25,
+    "selected_payload_hashes": "passed",
+    "new_model_sessions_during_publication": false
+  },
+  "limits": [
+    "Full CI, other-platform execution and official released-package installation not claimed",
+    "Application/browser/deployment/human acceptance and #66 behavior not qualified",
+    "Selected sanitized historical evidence; raw event streams remain private"
+  ]
+}

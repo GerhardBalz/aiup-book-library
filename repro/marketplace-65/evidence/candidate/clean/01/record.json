@@ -1,0 +1,48 @@
+{
+  "invocation": "$next",
+  "exit": 0,
+  "elapsed_seconds": 47.86,
+  "finished_utc": "2026-11-18T16:28:05.114849+00:00",
+  "changed_files": [],
+  "protected_files_changed": [],
+  "read_only_met": true,
+  "before_manifest_sha256": "11f19ee212611c2eaf5d2128812695f655838aa95bd4f6f21584b9641d597854",
+  "after_manifest_sha256": "11f19ee212611c2eaf5d2128812695f655838aa95bd4f6f21584b9641d597854",
+  "variant": "candidate",
+  "case": "clean",
+  "step": "01",
+  "source_session_id_sha256": [
+    "b308d86dca0d893f7353a095c8133de7e4b60c2f18933f4805e0cba7409b5c6e"
+  ],
+  "historical_evidence": true,
+  "original_files": {
+    "prompt.txt": {
+      "original_sha256": "035b9ba8077824278d9c990326c649ea0c65cdcb86ce8ff649f8e6f184038ca7",
+      "published_sha256": "16d17c51e75061b082df493723f6660c8257b21b7f03e11015ccb5ff83b97e6c",
+      "sanitized": true
+    },
+    "response.md": {
+      "original_sha256": "42aa2877162ed3b70e681bf2ed4e749cd701765945639e65ce342f30cd1fe86d",
+      "published_sha256": "42aa2877162ed3b70e681bf2ed4e749cd701765945639e65ce342f30cd1fe86d",
+      "sanitized": false
+    },
+    "changes.patch": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitized": false
+    }
+  },
+  "snapshots": {
+    "before": {
+      "original_archive_sha256": "9c6d469ccaed7d95881d1f0a64507b124bf960b4b045bbd0efc4f29e976adffb",
+      "original_manifest_sha256": "11f19ee212611c2eaf5d2128812695f655838aa95bd4f6f21584b9641d597854",
+      "selected_documents": {}
+    },
+    "after": {
+      "original_archive_sha256": "3530a51b57c71a01910b5deb32df1ea1831abe2de612ad775a88b09fa37b153f",
+      "original_manifest_sha256": "11f19ee212611c2eaf5d2128812695f655838aa95bd4f6f21584b9641d597854",
+      "selected_documents": {}
+    }
+  },
+  "disclosure": "Selected sanitized derivative; raw model/tool event stream and private preparation records are not included"
+}

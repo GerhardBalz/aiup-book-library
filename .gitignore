@@ -6,3 +6,15 @@ src/main/frontend/generated
 src/main/frontend/index.html
 src/main/bundles
 target
+
+# Restored skills, host configuration and local reproduction evidence.
+/.tessl/
+/.agents/
+/.claude/
+/.codex/
+/.github/skills/
+/.vscode/
+/.mcp.json
+/AGENTS.md
+/CLAUDE.md
+/.local/
