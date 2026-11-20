@@ -69,24 +69,3 @@ An internal id still identifies the row; the inventory code is a draft business-
 The vision requires active loans and history. A nullable return time represents that distinction without
 introducing a separate status field. Borrowing and return times preserve the requested history.
 
-## OQ-007: How should a rejected sign-in be presented?
-
-**Element:** UC-001 A1  
-**Raised by:** /use-case-spec, 2026-11-18  
-**Blocking:** No  
-**Status:** Open  
-**Assumed:** Inform the actor that credentials were not accepted and permit another attempt, without prescribing literal wording.  
-
-The source requires local account sign-in but provides no rejection wording or retry limit.
-The draft records the ordinary rejection/retry reading without inventing a limit or exact message.
-
-## OQ-008: What happens when the actor abandons sign-in?
-
-**Element:** UC-001 A2  
-**Raised by:** /use-case-spec, 2026-11-18  
-**Blocking:** No  
-**Status:** Open  
-**Assumed:** The actor remains not signed in and stored account/profile records remain unchanged.  
-
-The sources do not specify an abandonment destination. The draft records minimum guarantees and
-does not invent a new screen or navigation rule.

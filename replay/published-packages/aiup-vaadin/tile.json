@@ -1,0 +1,29 @@
+{
+  "name": "ai-unified-process/aiup-vaadin",
+  "version": "3.7.1",
+  "summary": "AI Unified Process UI layer with Vaadin - Flow and Hilla views, Browserless and Vitest view tests, and Playwright end-to-end tests",
+  "skills": {
+    "hilla-ui": {
+      "path": "skills/hilla-ui/SKILL.md"
+    },
+    "hilla-ui-test": {
+      "path": "skills/hilla-ui-test/SKILL.md"
+    },
+    "vaadin-e2e-test": {
+      "path": "skills/vaadin-e2e-test/SKILL.md"
+    },
+    "vaadin-flow-ui": {
+      "path": "skills/vaadin-flow-ui/SKILL.md"
+    },
+    "vaadin-flow-ui-test": {
+      "path": "skills/vaadin-flow-ui-test/SKILL.md"
+    }
+  },
+  "rules": {
+    "mcp-servers": {
+      "rules": "rules/mcp-servers.md"
+    }
+  },
+  "mcpServers": ".mcp.json",
+  "private": false
+}

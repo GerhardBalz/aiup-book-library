@@ -1,0 +1,68 @@
+{
+  "name": "ai-unified-process/aiup-core",
+  "version": "3.20.1",
+  "summary": "AI Unified Process core - stack-agnostic requirements, entity model, and use cases, plus the construction orchestrators for layer plugins",
+  "skills": {
+    "acceptance-protocol": {
+      "path": "skills/acceptance-protocol/SKILL.md"
+    },
+    "architecture-decision": {
+      "path": "skills/architecture-decision/SKILL.md"
+    },
+    "business-process": {
+      "path": "skills/business-process/SKILL.md"
+    },
+    "entity-model": {
+      "path": "skills/entity-model/SKILL.md"
+    },
+    "next": {
+      "path": "skills/next/SKILL.md"
+    },
+    "open-questions": {
+      "path": "skills/open-questions/SKILL.md"
+    },
+    "release-notes": {
+      "path": "skills/release-notes/SKILL.md"
+    },
+    "requirements": {
+      "path": "skills/requirements/SKILL.md"
+    },
+    "reverse-engineer": {
+      "path": "skills/reverse-engineer/SKILL.md"
+    },
+    "spec-review": {
+      "path": "skills/spec-review/SKILL.md"
+    },
+    "stack": {
+      "path": "skills/stack/SKILL.md"
+    },
+    "test-case": {
+      "path": "skills/test-case/SKILL.md"
+    },
+    "test-case-coverage": {
+      "path": "skills/test-case-coverage/SKILL.md"
+    },
+    "test-case-implement": {
+      "path": "skills/test-case-implement/SKILL.md"
+    },
+    "use-case-coverage": {
+      "path": "skills/use-case-coverage/SKILL.md"
+    },
+    "use-case-diagram": {
+      "path": "skills/use-case-diagram/SKILL.md"
+    },
+    "use-case-implement": {
+      "path": "skills/use-case-implement/SKILL.md"
+    },
+    "use-case-spec": {
+      "path": "skills/use-case-spec/SKILL.md"
+    },
+    "use-case-test": {
+      "path": "skills/use-case-test/SKILL.md"
+    },
+    "user-guide": {
+      "path": "skills/user-guide/SKILL.md"
+    }
+  },
+  "private": false
+}

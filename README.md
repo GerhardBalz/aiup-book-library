@@ -1,3 +1,27 @@
+# Book Library manual replay snapshot
+
+The published AIUP skills are already included as ordinary repository-local skills.
+Open this clone as its own Codex project and start a fresh chat. Do not reinstall
+packages during a baseline playthrough: the starting runtime is frozen.
+
+First input:
+
+    Use $use-case-spec UC-001
+
+Run one requested command at a time and retain its full response. Human clarifications
+and approval decisions are part of the normal skill workflow. This snapshot contains
+no approval of the specification that will be written.
+
+Runtime provenance: [replay/runtime.json](replay/runtime.json).
+Check the starting files with:
+
+    python -B replay/verify_baseline.py
+
+The original application README follows. Application builds are separate from this
+specification-workflow playthrough.
+
+---
+
 # Book Library
 
 This branch provides [reproduction and verification evidence for Marketplace #65](repro/marketplace-65/README.md).
