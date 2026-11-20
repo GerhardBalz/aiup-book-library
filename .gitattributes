@@ -4,3 +4,6 @@ repro/marketplace-65/** text eol=lf
 repro/marketplace-65/run.py -text
 # Captured patches are evidence payloads; retain their recorded bytes.
 repro/marketplace-65/**/changes.patch -text
+
+# Replay checkpoints preserve exact source bytes on every platform.
+* -text
