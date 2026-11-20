@@ -1,0 +1,32 @@
+{
+  "name": "ai-unified-process/aiup-spring-boot",
+  "version": "3.7.1",
+  "summary": "AI Unified Process Spring Boot layers - service, REST API, and external system client implementation and tests",
+  "skills": {
+    "spring-client": {
+      "path": "skills/spring-client/SKILL.md"
+    },
+    "spring-client-test": {
+      "path": "skills/spring-client-test/SKILL.md"
+    },
+    "spring-rest": {
+      "path": "skills/spring-rest/SKILL.md"
+    },
+    "spring-rest-test": {
+      "path": "skills/spring-rest-test/SKILL.md"
+    },
+    "spring-service": {
+      "path": "skills/spring-service/SKILL.md"
+    },
+    "spring-service-test": {
+      "path": "skills/spring-service-test/SKILL.md"
+    }
+  },
+  "rules": {
+    "mcp-servers": {
+      "rules": "rules/mcp-servers.md"
+    }
+  },
+  "mcpServers": ".mcp.json",
+  "private": false
+}

@@ -1,3 +1,33 @@
+# Book Library: manual replay from the beginning
+
+This checkpoint starts the specification workflow before requirements are written.
+Only the starter [vision](docs/vision.md) and [architecture](docs/architecture.md)
+are present under docs/. Application starter code is retained.
+
+The frozen published AIUP skills are already ordinary files in .agents/skills.
+No Tessl installation or package upgrade is needed before the run.
+Open this checkout as its own project and start a fresh chat with:
+
+```text
+Use $next
+```
+
+Follow the actual recommendations and answer ordinary clarification questions.
+Run one requested action at a time and keep the full responses. This checkpoint
+does not prescribe future answers, approve a document or include UX test oracles.
+
+Starting-point check (before authoring changes the files):
+
+```text
+python -B replay/verify_baseline.py
+```
+
+The [runtime manifest](replay/runtime.json) identifies the published versions,
+fingerprints and unchanged package files. The baseline contains no prior manual
+conversation, generated specification or earlier replay evidence.
+
+---
+
 # Book Library
 
 The **Book Library** is the reference example project for the

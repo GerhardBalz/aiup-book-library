@@ -1,0 +1,2 @@
+# Preserve exact starter and published-package bytes across checkouts.
+* -text
