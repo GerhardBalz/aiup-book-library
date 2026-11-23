@@ -6,3 +6,9 @@ src/main/frontend/generated
 src/main/frontend/index.html
 src/main/bundles
 target
+
+# Local installer scaffolding is not part of the frozen baseline.
+.tessl/
+.codex/
+__pycache__/
+*.pyc

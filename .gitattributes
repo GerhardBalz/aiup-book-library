@@ -1,0 +1,2 @@
+# Preserve exact starter and published-package bytes on every host.
+* -text

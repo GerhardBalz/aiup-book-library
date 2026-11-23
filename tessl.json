@@ -1,0 +1,24 @@
+{
+  "name": "book-library-requirements-baseline",
+  "mode": "managed",
+  "dependencies": {
+    "ai-unified-process/aiup-core": {
+      "version": "3.21.2"
+    },
+    "ai-unified-process/aiup-flyway": {
+      "version": "3.5.1"
+    },
+    "ai-unified-process/aiup-jooq": {
+      "version": "3.5.1"
+    },
+    "ai-unified-process/aiup-spring-boot": {
+      "version": "3.7.1"
+    },
+    "ai-unified-process/aiup-vaadin": {
+      "version": "3.7.1"
+    }
+  },
+  "agents": [
+    "codex"
+  ]
+}

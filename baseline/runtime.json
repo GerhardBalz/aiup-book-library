@@ -1,0 +1,640 @@
+{
+  "prepared_on": "2026-11-23",
+  "timezone": "Europe/Zurich",
+  "book_library_starter": "3bc0617a9018d66d1b812f67b63aae63e6d1b8f8",
+  "marketplace_source_baseline": "639770e6d5f5777cddb34dc987a38cc9cbcb51df",
+  "marketplace_core_source_version": "3.21.3",
+  "runtime_origin": "Fresh exact-version Tessl registry installation; copied unchanged into ordinary discoverable files",
+  "published_runtime_core_version": "3.21.2",
+  "registry_recheck": "baseline/registry-check.json: exact selected versions were latest available at its timestamp",
+  "packages": {
+    "aiup-core": {
+      "version": "3.21.2",
+      "release_tag": "aiup-core-v3.21.2",
+      "source_commit": "03cb35fc981da3c390137edc5bc2dd2983e6c9a1",
+      "package_content_sha256": "fe3e1ae339739f710f3a7a40f39841bb95fb6b42d284e245e825fed28d98ac83",
+      "fingerprint_kind": "Locally computed digest of the complete published-package file inventory; not a registry signature",
+      "skill_files": {
+        "skills/acceptance-protocol/references/protocol.md": "9be75a0aa3787c6467cabd6e1b83d723be70c0fcb2612b7ec6b0a1f9a1d3cf92",
+        "skills/acceptance-protocol/SKILL.md": "25f2d99dfb75d8bc725c096ae2f5ed092374c5465f11bc7718212418e143d777",
+        "skills/architecture-decision/references/adr.md": "6a818d9a76b337df858874830b06a7083c7fef26d1a7aa6490edeca05093996d",
+        "skills/architecture-decision/SKILL.md": "c6599ccaa00a9b8b04478659d69164eddc3bc96cbdca86ff82df3cbeaf7f3aae",
+        "skills/business-process/references/example.bpmn.md": "c7ca88033a899547e2c43d906272abffc80059a3f1a453c05b4e7ff1df4fdb97",
+        "skills/business-process/references/process.bpmn.md": "a9aed917630a8860d94a893a06959399a62bec68f83cbeae0e6899bc58c1cf54",
+        "skills/business-process/scripts/bpmn_layout.py": "1d3a722fab6872d1dc1b3317b39ea47ca0144c84f621aa72827893c67bb482f0",
+        "skills/business-process/SKILL.md": "b63116aab09a106e0279cac393affd5a3b6cdb78a2bd378e8b1a5da4813919a6",
+        "skills/entity-model/references/clarify-checklist.md": "6f5888fba30ee21762708769ece064214b3f7bc4abc14d0dd42c6864f9eed233",
+        "skills/entity-model/references/REFERENCE.md": "713d15e463a9d22ad15c49d465c31fdaffb20255c4381acdb6fb0129f6ad537e",
+        "skills/entity-model/SKILL.md": "adf9e257a89652bdb42c912849172bdf80abbacdde63701499c5d808b39b51be",
+        "skills/next/SKILL.md": "8ef39a8fa2449b6ba87bef21e0499b359e96028dca702dabafde4b613efa5e85",
+        "skills/open-questions/references/open-questions.md": "e9a6ebab530bd6a7812b8d317455c95044c36af0ba5134ef71776e957c163a9e",
+        "skills/open-questions/SKILL.md": "7134e17dbc9295438c84ec4d3a87fde5ae01712f2908129811f3996ab19629d8",
+        "skills/release-notes/references/release.md": "f81fa2491f35aee91cd7b3b2ceefd414e83e5482432f5140c28a01479faaf060",
+        "skills/release-notes/SKILL.md": "d0eac8c1121a3b424da96947e42684de484034c419feb86410e2a265339ca5dd",
+        "skills/requirements/references/clarify-checklist.md": "76b200adb1ce6f01f567d90cb0c1f1f6fbaadaced60fe9d6c071b29bd1aaaee4",
+        "skills/requirements/references/glossary.md": "57ab356f1f9f11fb9127e5af5438806015b3b73b92dfb3e08a8c451472839ac9",
+        "skills/requirements/references/REFERENCE.md": "3539c19f6c8b4ce91c560657ca42c5ae9099086f580be63c5b358f6b040847d6",
+        "skills/requirements/SKILL.md": "1111046f818416697ec20ae8f7ae5c1101ab1bc1c16e3615f31eea90c3f45995",
+        "skills/reverse-engineer/references/entity-model.md": "038699b562e4acb59858a113bbc04723261bb3f5513bf831a27017f0e63bf3b7",
+        "skills/reverse-engineer/references/modules.md": "5b9772ef0fd4044dbe715a0cab4eaa7f36c92f823852b6f466bdeb4b3571e549",
+        "skills/reverse-engineer/references/specifications.md": "a07ede11d1763f5d3b5088c4816e06350775215916e5b77608ec63c88aa4c689",
+        "skills/reverse-engineer/references/stack-signals.md": "d2c0d8d0117674325d4dfc3ad311834bc19838bb708ffb526dafd039209ccec9",
+        "skills/reverse-engineer/SKILL.md": "1ff25f18334d6a7e9a96067c19bb38d33f1507bbcd6cad960a8b213a5019ce88",
+        "skills/spec-review/references/lint-codes.md": "426ee7da6e81ad83ee4fa32daa2faab1695854bd627d6047fb659629b2360dc5",
+        "skills/spec-review/references/review-checklist.md": "282a06239f66d759bd7c8d16488eb673ce1b089858c7eb6c146357d2855b6a47",
+        "skills/spec-review/scripts/spec_lint.py": "3f99f224d336df5c2239841bd2c50ac27404ba5626d87680dd383c341ff9b009",
+        "skills/spec-review/SKILL.md": "0d4404e7a8f657606263b62585771004473bce72a2047684fdc5b6c8458bf9f8",
+        "skills/stack/references/layer-catalog.md": "d01b9150dfd0b58fea0a689f14e2c1c49c5495836f385a9cf7d7d069711c2d6e",
+        "skills/stack/references/stack.md": "2572ffcc7afcd3f3402748b87476c8cab70df66d55a1c22d9d367787470c9d38",
+        "skills/stack/SKILL.md": "d1043d5794cd2434f65f828b62ce46bb971c56c85433fbef23976b8d295cbbbc",
+        "skills/test-case/references/example-process.bpmn.md": "61cf5a122234f6450879050041bde56b291047ca8b5c4e00a1b053a40bc34ebd",
+        "skills/test-case/references/example.md": "d8accec068f68c994265ce7162885210c9dca9a7d4f6418a393d22f1186ce78c",
+        "skills/test-case/references/test-case.md": "176c9193e9e51acbb13cb2f3324623a2f51e26055ca6e6535e0d776325951609",
+        "skills/test-case/scripts/bpmn_paths.py": "93275a3c5eac3e5e1e3346790791d8fe59fe36ef645cad1ce671ea75bcf1306a",
+        "skills/test-case/SKILL.md": "0a40fe24a3946aba4bada6063e2cb144a7e12255938d632b9e68b69cd3945140",
+        "skills/test-case-coverage/SKILL.md": "82d0dd1f2d1418f95c329cac5612624c55dcd7a478452f40e0885695121cd45b",
+        "skills/test-case-implement/SKILL.md": "e4430f941aed1dc91e92b55fa2dea1d69c0081e069d622c96a194fde4d795a5c",
+        "skills/use-case-coverage/scripts/coverage_report.py": "c170de581f363288eff4c7a35b27949726be60a82c5aaaa917e23c6b2c4f1376",
+        "skills/use-case-coverage/SKILL.md": "e04565fbb12e0d8124f71e9e31a6bd35f46edbd6b0f61328dd149f78d1d37ccb",
+        "skills/use-case-diagram/references/modules.md": "5213b63bc2d83d3b2bfa98d3f104244596249f096632fd7dab193c9d9a5abe00",
+        "skills/use-case-diagram/SKILL.md": "8c93d652a9b28ecef899eb83f0218649f770d1cf89f4278c561cdf61b46de852",
+        "skills/use-case-implement/references/decision-rights.md": "e272889efa4f39f891fcc4b08b46e1e46da0e1cf3e82ae9d52a6f7b10942285f",
+        "skills/use-case-implement/SKILL.md": "1f0ef597e9e3777ad3cf139cdcbc1882d43606f2f3f146645d7e15d881981f16",
+        "skills/use-case-spec/references/clarify-checklist.md": "ec7e0aefeffc745a8b6fe756cbff2326ae0ab81b53c5e50c8f3866ddeb33a09d",
+        "skills/use-case-spec/references/example.md": "d1c91532433800ceb7a44cf7e98a0c4f297b74729bec9025f5e05b1db24331ca",
+        "skills/use-case-spec/references/format-spec.md": "7f7ead3464abf5720929165b27e194836696ef8c192a6550b47eb90cd0e4e5d0",
+        "skills/use-case-spec/references/overview-and-postconditions.md": "159299532167dee87c7b8f801cde040ade38c1a64d15d94fd73b130abfb0013c",
+        "skills/use-case-spec/references/use-case.md": "c94aaddde7942d0575c116d5df0143f947549026c2ae34d1c5e9c0611ba3387e",
+        "skills/use-case-spec/scripts/validate_use_case.py": "e52df953d1ebf525c769ef8aead453811f80009cf9f368f6420a5c465c0b6a3f",
+        "skills/use-case-spec/SKILL.md": "4195448aed612b2ee6fe6942e91c5202589847235b26ac4f4b9d0712824e3fdd",
+        "skills/use-case-test/references/which-layer-tests-what.md": "f96fd42bea58431ddf58cd51fdc734dcd817980fbeda2ede43e76e9b7c93061e",
+        "skills/use-case-test/SKILL.md": "bcbd852fa5bcc5428fe7071069b766642a56f1fa1be40dbb1a12bc0ad241743e",
+        "skills/user-guide/references/chapter.md": "c51f1dc3f40213d81991cb4ea483440051ea9c25f7eb4f46309f8123dc1f1b6e",
+        "skills/user-guide/scripts/guide_anchor.py": "e32e4fa2939f03c01dff1d72dac03dd8b77d12b2a794bbc83e0fa47b6960522e",
+        "skills/user-guide/SKILL.md": "935b96909ea52b5a950200051a08bc940927135e37f147b94c10c7e9dd8a82a0"
+      },
+      "package_files": {
+        ".tessl-plugin/plugin.json": "24e988f61ebc32522f11d14d0eaf888a31dc2244a97005971c275e4e78b38019",
+        "LICENSE": "596288b7c2507b134a18f9f1bfc4d5e415be0f910989d4787b840126a47ba6ac",
+        "NOTICE": "b61bb9b9d48a9c7d5ebd971d936f406f08656560ea190e35932260ca65b128fd",
+        "README.md": "5b23175d6e8ce3c8f3200889720f36ae1ec964ebc53995b2d1d666cb4a954b44",
+        "skills/acceptance-protocol/references/protocol.md": "9be75a0aa3787c6467cabd6e1b83d723be70c0fcb2612b7ec6b0a1f9a1d3cf92",
+        "skills/acceptance-protocol/SKILL.md": "25f2d99dfb75d8bc725c096ae2f5ed092374c5465f11bc7718212418e143d777",
+        "skills/architecture-decision/references/adr.md": "6a818d9a76b337df858874830b06a7083c7fef26d1a7aa6490edeca05093996d",
+        "skills/architecture-decision/SKILL.md": "c6599ccaa00a9b8b04478659d69164eddc3bc96cbdca86ff82df3cbeaf7f3aae",
+        "skills/business-process/references/example.bpmn.md": "c7ca88033a899547e2c43d906272abffc80059a3f1a453c05b4e7ff1df4fdb97",
+        "skills/business-process/references/process.bpmn.md": "a9aed917630a8860d94a893a06959399a62bec68f83cbeae0e6899bc58c1cf54",
+        "skills/business-process/scripts/bpmn_layout.py": "1d3a722fab6872d1dc1b3317b39ea47ca0144c84f621aa72827893c67bb482f0",
+        "skills/business-process/SKILL.md": "b63116aab09a106e0279cac393affd5a3b6cdb78a2bd378e8b1a5da4813919a6",
+        "skills/entity-model/references/clarify-checklist.md": "6f5888fba30ee21762708769ece064214b3f7bc4abc14d0dd42c6864f9eed233",
+        "skills/entity-model/references/REFERENCE.md": "713d15e463a9d22ad15c49d465c31fdaffb20255c4381acdb6fb0129f6ad537e",
+        "skills/entity-model/SKILL.md": "adf9e257a89652bdb42c912849172bdf80abbacdde63701499c5d808b39b51be",
+        "skills/next/SKILL.md": "8ef39a8fa2449b6ba87bef21e0499b359e96028dca702dabafde4b613efa5e85",
+        "skills/open-questions/references/open-questions.md": "e9a6ebab530bd6a7812b8d317455c95044c36af0ba5134ef71776e957c163a9e",
+        "skills/open-questions/SKILL.md": "7134e17dbc9295438c84ec4d3a87fde5ae01712f2908129811f3996ab19629d8",
+        "skills/release-notes/references/release.md": "f81fa2491f35aee91cd7b3b2ceefd414e83e5482432f5140c28a01479faaf060",
+        "skills/release-notes/SKILL.md": "d0eac8c1121a3b424da96947e42684de484034c419feb86410e2a265339ca5dd",
+        "skills/requirements/references/clarify-checklist.md": "76b200adb1ce6f01f567d90cb0c1f1f6fbaadaced60fe9d6c071b29bd1aaaee4",
+        "skills/requirements/references/glossary.md": "57ab356f1f9f11fb9127e5af5438806015b3b73b92dfb3e08a8c451472839ac9",
+        "skills/requirements/references/REFERENCE.md": "3539c19f6c8b4ce91c560657ca42c5ae9099086f580be63c5b358f6b040847d6",
+        "skills/requirements/SKILL.md": "1111046f818416697ec20ae8f7ae5c1101ab1bc1c16e3615f31eea90c3f45995",
+        "skills/reverse-engineer/references/entity-model.md": "038699b562e4acb59858a113bbc04723261bb3f5513bf831a27017f0e63bf3b7",
+        "skills/reverse-engineer/references/modules.md": "5b9772ef0fd4044dbe715a0cab4eaa7f36c92f823852b6f466bdeb4b3571e549",
+        "skills/reverse-engineer/references/specifications.md": "a07ede11d1763f5d3b5088c4816e06350775215916e5b77608ec63c88aa4c689",
+        "skills/reverse-engineer/references/stack-signals.md": "d2c0d8d0117674325d4dfc3ad311834bc19838bb708ffb526dafd039209ccec9",
+        "skills/reverse-engineer/SKILL.md": "1ff25f18334d6a7e9a96067c19bb38d33f1507bbcd6cad960a8b213a5019ce88",
+        "skills/spec-review/references/lint-codes.md": "426ee7da6e81ad83ee4fa32daa2faab1695854bd627d6047fb659629b2360dc5",
+        "skills/spec-review/references/review-checklist.md": "282a06239f66d759bd7c8d16488eb673ce1b089858c7eb6c146357d2855b6a47",
+        "skills/spec-review/scripts/spec_lint.py": "3f99f224d336df5c2239841bd2c50ac27404ba5626d87680dd383c341ff9b009",
+        "skills/spec-review/SKILL.md": "0d4404e7a8f657606263b62585771004473bce72a2047684fdc5b6c8458bf9f8",
+        "skills/stack/references/layer-catalog.md": "d01b9150dfd0b58fea0a689f14e2c1c49c5495836f385a9cf7d7d069711c2d6e",
+        "skills/stack/references/stack.md": "2572ffcc7afcd3f3402748b87476c8cab70df66d55a1c22d9d367787470c9d38",
+        "skills/stack/SKILL.md": "d1043d5794cd2434f65f828b62ce46bb971c56c85433fbef23976b8d295cbbbc",
+        "skills/test-case/references/example-process.bpmn.md": "61cf5a122234f6450879050041bde56b291047ca8b5c4e00a1b053a40bc34ebd",
+        "skills/test-case/references/example.md": "d8accec068f68c994265ce7162885210c9dca9a7d4f6418a393d22f1186ce78c",
+        "skills/test-case/references/test-case.md": "176c9193e9e51acbb13cb2f3324623a2f51e26055ca6e6535e0d776325951609",
+        "skills/test-case/scripts/bpmn_paths.py": "93275a3c5eac3e5e1e3346790791d8fe59fe36ef645cad1ce671ea75bcf1306a",
+        "skills/test-case/SKILL.md": "0a40fe24a3946aba4bada6063e2cb144a7e12255938d632b9e68b69cd3945140",
+        "skills/test-case-coverage/SKILL.md": "82d0dd1f2d1418f95c329cac5612624c55dcd7a478452f40e0885695121cd45b",
+        "skills/test-case-implement/SKILL.md": "e4430f941aed1dc91e92b55fa2dea1d69c0081e069d622c96a194fde4d795a5c",
+        "skills/use-case-coverage/scripts/coverage_report.py": "c170de581f363288eff4c7a35b27949726be60a82c5aaaa917e23c6b2c4f1376",
+        "skills/use-case-coverage/SKILL.md": "e04565fbb12e0d8124f71e9e31a6bd35f46edbd6b0f61328dd149f78d1d37ccb",
+        "skills/use-case-diagram/references/modules.md": "5213b63bc2d83d3b2bfa98d3f104244596249f096632fd7dab193c9d9a5abe00",
+        "skills/use-case-diagram/SKILL.md": "8c93d652a9b28ecef899eb83f0218649f770d1cf89f4278c561cdf61b46de852",
+        "skills/use-case-implement/references/decision-rights.md": "e272889efa4f39f891fcc4b08b46e1e46da0e1cf3e82ae9d52a6f7b10942285f",
+        "skills/use-case-implement/SKILL.md": "1f0ef597e9e3777ad3cf139cdcbc1882d43606f2f3f146645d7e15d881981f16",
+        "skills/use-case-spec/references/clarify-checklist.md": "ec7e0aefeffc745a8b6fe756cbff2326ae0ab81b53c5e50c8f3866ddeb33a09d",
+        "skills/use-case-spec/references/example.md": "d1c91532433800ceb7a44cf7e98a0c4f297b74729bec9025f5e05b1db24331ca",
+        "skills/use-case-spec/references/format-spec.md": "7f7ead3464abf5720929165b27e194836696ef8c192a6550b47eb90cd0e4e5d0",
+        "skills/use-case-spec/references/overview-and-postconditions.md": "159299532167dee87c7b8f801cde040ade38c1a64d15d94fd73b130abfb0013c",
+        "skills/use-case-spec/references/use-case.md": "c94aaddde7942d0575c116d5df0143f947549026c2ae34d1c5e9c0611ba3387e",
+        "skills/use-case-spec/scripts/validate_use_case.py": "e52df953d1ebf525c769ef8aead453811f80009cf9f368f6420a5c465c0b6a3f",
+        "skills/use-case-spec/SKILL.md": "4195448aed612b2ee6fe6942e91c5202589847235b26ac4f4b9d0712824e3fdd",
+        "skills/use-case-test/references/which-layer-tests-what.md": "f96fd42bea58431ddf58cd51fdc734dcd817980fbeda2ede43e76e9b7c93061e",
+        "skills/use-case-test/SKILL.md": "bcbd852fa5bcc5428fe7071069b766642a56f1fa1be40dbb1a12bc0ad241743e",
+        "skills/user-guide/references/chapter.md": "c51f1dc3f40213d81991cb4ea483440051ea9c25f7eb4f46309f8123dc1f1b6e",
+        "skills/user-guide/scripts/guide_anchor.py": "e32e4fa2939f03c01dff1d72dac03dd8b77d12b2a794bbc83e0fa47b6960522e",
+        "skills/user-guide/SKILL.md": "935b96909ea52b5a950200051a08bc940927135e37f147b94c10c7e9dd8a82a0",
+        "tessl-package.json": "323d8b34bc90ae692c1329c84026cebac90e15a2c37f84f2c0c17b4b5e47e52e",
+        "tile.json": "df2c740786673e5b4ad219547dbb868c0e8fb227324a5d14ff1943ea6651714d"
+      },
+      "legal": {
+        "LICENSE": {
+          "in_published_package": true,
+          "sha256": "596288b7c2507b134a18f9f1bfc4d5e415be0f910989d4787b840126a47ba6ac"
+        },
+        "NOTICE": {
+          "in_published_package": true,
+          "sha256": "b61bb9b9d48a9c7d5ebd971d936f406f08656560ea190e35932260ca65b128fd"
+        }
+      }
+    },
+    "aiup-flyway": {
+      "version": "3.5.1",
+      "release_tag": "aiup-flyway-v3.5.1",
+      "source_commit": "38657520768700e775af1cb594ec73b683d46341",
+      "package_content_sha256": "5d433d4dfbb0ba2145417af393b4dcce0a9cdaec57d71c417eb925c985a36f5e",
+      "fingerprint_kind": "Locally computed digest of the complete published-package file inventory; not a registry signature",
+      "skill_files": {
+        "skills/flyway-schema/references/layer.md": "1851774be87fb4b03890a84c420a9696c4e1aad8b3c1c82f4dcc13d1ebc0bf40",
+        "skills/flyway-schema/references/markers.md": "d18fbef3b8b0e4d28f56eed0b39befe000628d8bf8ed05a441a7cf6ebbbced03",
+        "skills/flyway-schema/SKILL.md": "5e43d088f337f436c4bc0c0946521d3883d37e38c63c4814a975b4c0f55d75bb"
+      },
+      "package_files": {
+        ".mcp.json": "fce4dbd6f3476e6ba72f643e541aa12c70b4a13f129021b9cbcca3fd3bece200",
+        ".tessl-plugin/plugin.json": "e4c26ac20be341c8ee8c55e44f6dc19e5ea816c42fd35840e143318dc7403b64",
+        "LICENSE": "596288b7c2507b134a18f9f1bfc4d5e415be0f910989d4787b840126a47ba6ac",
+        "README.md": "82fca57654896a130e87ee523b6603cd4d62c856dfa48d6594199b4772056425",
+        "skills/flyway-schema/references/layer.md": "1851774be87fb4b03890a84c420a9696c4e1aad8b3c1c82f4dcc13d1ebc0bf40",
+        "skills/flyway-schema/references/markers.md": "d18fbef3b8b0e4d28f56eed0b39befe000628d8bf8ed05a441a7cf6ebbbced03",
+        "skills/flyway-schema/SKILL.md": "5e43d088f337f436c4bc0c0946521d3883d37e38c63c4814a975b4c0f55d75bb",
+        "tessl-package.json": "e89cb8a3af2520b2396508b375f540a03912d10e0d4f90203bcb606a825d16a9",
+        "tile.json": "1a5f7b480e86630cd44cbe369466b7cac989f851cfce401c98d6853f4971068a"
+      },
+      "legal": {
+        "LICENSE": {
+          "in_published_package": true,
+          "sha256": "596288b7c2507b134a18f9f1bfc4d5e415be0f910989d4787b840126a47ba6ac"
+        },
+        "NOTICE": {
+          "in_published_package": false,
+          "supplementary_source_copy": "repository root at 38657520768700e775af1cb594ec73b683d46341",
+          "sha256": "b61bb9b9d48a9c7d5ebd971d936f406f08656560ea190e35932260ca65b128fd"
+        }
+      }
+    },
+    "aiup-jooq": {
+      "version": "3.5.1",
+      "release_tag": "aiup-jooq-v3.5.1",
+      "source_commit": "38657520768700e775af1cb594ec73b683d46341",
+      "package_content_sha256": "0155026160fdbe426981bb89bb79a3a14b22d85f6faf1d06a1aed1d54aaa51f4",
+      "fingerprint_kind": "Locally computed digest of the complete published-package file inventory; not a registry signature",
+      "skill_files": {
+        "skills/jooq-persistence/references/layer.md": "232d3358c1b41a64c652022cae4826f3f652bcd1c00fc68a3b0359f4c26de8dc",
+        "skills/jooq-persistence/references/markers.md": "5f56eb0fb0cd23f377f2eddf1c593307770f6aac3fd9145969492bb252d462d8",
+        "skills/jooq-persistence/SKILL.md": "c34dcd613e6bf2d07433c2ed58de882bb46dd59c7a1a65fe479baa5438d2e812",
+        "skills/jooq-persistence-test/references/markers.md": "713b258fb3dbf6d9e900b91b365b44d4816f3b86dd6bd496b5455f928f7a4c6c",
+        "skills/jooq-persistence-test/references/R__uc010_browse_product_catalog.sql.md": "e3550a93c78c482365794783ab13a9e994480938bb12e4d5d114969da16fccb0",
+        "skills/jooq-persistence-test/references/UC010BrowseProductCatalogRepositoryTest.java.md": "5d06fed6f24f15c959e056a954e9fccab26a0cd79a4379163a1389f4f0c67acd",
+        "skills/jooq-persistence-test/SKILL.md": "e7b0764e45d55c351d614538a8ce91eb19c35ccae763489f15ef0e5309151e21"
+      },
+      "package_files": {
+        ".mcp.json": "81ea7e1dfe6535191a34eb753f25cb51df6fa159ad09b8dc207f388c020d372c",
+        ".tessl-plugin/plugin.json": "cb7c7e926d86a1bc15874e09eaa26d003ca85d4510de2852bd4acf8512e6f6aa",
+        "LICENSE": "596288b7c2507b134a18f9f1bfc4d5e415be0f910989d4787b840126a47ba6ac",
+        "README.md": "c5a8b105a0b2b2986c14bd69e0a3b743b8a2f8504ee03db023a8665ab7f2543f",
+        "rules/mcp-servers.md": "72b51eaf213da1d3f703971182f744b34c569969495603bc8de4e8c043ab1381",
+        "skills/jooq-persistence/references/layer.md": "232d3358c1b41a64c652022cae4826f3f652bcd1c00fc68a3b0359f4c26de8dc",
+        "skills/jooq-persistence/references/markers.md": "5f56eb0fb0cd23f377f2eddf1c593307770f6aac3fd9145969492bb252d462d8",
+        "skills/jooq-persistence/SKILL.md": "c34dcd613e6bf2d07433c2ed58de882bb46dd59c7a1a65fe479baa5438d2e812",
+        "skills/jooq-persistence-test/references/markers.md": "713b258fb3dbf6d9e900b91b365b44d4816f3b86dd6bd496b5455f928f7a4c6c",
+        "skills/jooq-persistence-test/references/R__uc010_browse_product_catalog.sql.md": "e3550a93c78c482365794783ab13a9e994480938bb12e4d5d114969da16fccb0",
+        "skills/jooq-persistence-test/references/UC010BrowseProductCatalogRepositoryTest.java.md": "5d06fed6f24f15c959e056a954e9fccab26a0cd79a4379163a1389f4f0c67acd",
+        "skills/jooq-persistence-test/SKILL.md": "e7b0764e45d55c351d614538a8ce91eb19c35ccae763489f15ef0e5309151e21",
+        "tessl-package.json": "8ab4141b2160c6f6022cc3785c1448c2b9ced70a9cf76b48994efdb9a58c3121",
+        "tile.json": "0944802632e4ad3096c814c93a428bdf949b773e37a0b8e508108dbfac4315ac"
+      },
+      "legal": {
+        "LICENSE": {
+          "in_published_package": true,
+          "sha256": "596288b7c2507b134a18f9f1bfc4d5e415be0f910989d4787b840126a47ba6ac"
+        },
+        "NOTICE": {
+          "in_published_package": false,
+          "supplementary_source_copy": "repository root at 38657520768700e775af1cb594ec73b683d46341",
+          "sha256": "b61bb9b9d48a9c7d5ebd971d936f406f08656560ea190e35932260ca65b128fd"
+        }
+      }
+    },
+    "aiup-spring-boot": {
+      "version": "3.7.1",
+      "release_tag": "aiup-spring-boot-v3.7.1",
+      "source_commit": "38657520768700e775af1cb594ec73b683d46341",
+      "package_content_sha256": "f1804e96942654150fa9040b66e5602ac1eef8136590cc201f741ec337f7b722",
+      "fingerprint_kind": "Locally computed digest of the complete published-package file inventory; not a registry signature",
+      "skill_files": {
+        "skills/spring-client/references/layer.md": "5e8f554e45c58679ab19874f8eb489255bcec15f474fba0b27105d4d2d69a2ed",
+        "skills/spring-client/references/markers.md": "08024b23896c84495a4615469a2324e475770a8c15e130206ee2330c1b19ad7d",
+        "skills/spring-client/SKILL.md": "e415abf83aadc683e8b88e86cc8e3bad1424cfaf990540f97f71c72487a23bee",
+        "skills/spring-client-test/references/markers.md": "f0f57939bc4bc130bea3b6f568b9a73b6fdbb319878d440a37a350a34e845e25",
+        "skills/spring-client-test/references/PaymentProviderClientTest.java.md": "d8818866df444c0145fdb927b9abbc4ec9c4837be283aca439a109a7a67eec49",
+        "skills/spring-client-test/SKILL.md": "96f5822bc054098a2233182f6094cf15ac2b592362e7f1c20df1046d7ada60c6",
+        "skills/spring-rest/references/layer.md": "3e7369d3bbf5e8f4ad43d6b68dede4fee418727917434614d6957372079bd62a",
+        "skills/spring-rest/references/markers.md": "da017307562a5951a4d9e8cedbe29f7832a3e77a896ab0c0fbdfcbfe7bc86b82",
+        "skills/spring-rest/SKILL.md": "780e138e63407f9a26d5c1e1f2fa6f94f9fcf958fa6bf9394923e3790714c872",
+        "skills/spring-rest-test/references/markers.md": "36046e75cc208bc686423681aa9d4d67f8674089822c58e44fd65a82d085fb04",
+        "skills/spring-rest-test/references/UC001RegisterGuestApiTest.java.md": "4deb8908386087d7ebb7fbc522421e1e84483c93c631ea06c0d95afb69401a83",
+        "skills/spring-rest-test/SKILL.md": "38d2a3c6a312e2788e59007c3682e6a1505889230a60fda45512620f4783eae2",
+        "skills/spring-service/references/layer.md": "7a02beb9ed6fb6fa73861cc00561150ebdd7e6652e7c587639c3f243bc874178",
+        "skills/spring-service/references/markers.md": "45315328cdc599d45976aacf3f84b4502ae803cb1fd3a3ae03817f4a4653b3cc",
+        "skills/spring-service/references/module-layout.md": "31d2d1d702e3443b874a25cd08c3aeec34d3b694d377ff6dcef3c31a85b313c8",
+        "skills/spring-service/SKILL.md": "15e4dee686c2dbedecbbb94c446cc8021a5cf4c00711089a3b80e80ba28c504b",
+        "skills/spring-service-test/references/markers.md": "c15a630d7b8714d2649084236d0350e59ded6b11c1e0292978caead4d966a011",
+        "skills/spring-service-test/references/UC001RegisterGuestServiceTest.java.md": "aa6fd97ea932036ca01f3fa1ecce61576e04cebc38a99a017eff8f533a2d85e8",
+        "skills/spring-service-test/SKILL.md": "f8b1ed6785ee6ec31ec509cecfd79ad1e1b599f3f27abc508878bc5f892a19ca"
+      },
+      "package_files": {
+        ".mcp.json": "e079e35fde32dc9e087303a564238c6f5036f7266ac602e80975f20f5cb987f7",
+        ".tessl-plugin/plugin.json": "c9e81e0b7b51af896cc786721db7e98cb5ff6789aea0202cfe7a3ecd63954714",
+        "LICENSE": "596288b7c2507b134a18f9f1bfc4d5e415be0f910989d4787b840126a47ba6ac",
+        "README.md": "737e3d2edbe6845ce09530f5e5d43fe16127ced89ab641aaf38413a3828a2245",
+        "rules/mcp-servers.md": "08e7a8e4c77ad7d8368c1621ebb40d5fb7804c261ceb1e333f7ca2ab201119de",
+        "skills/spring-client/references/layer.md": "5e8f554e45c58679ab19874f8eb489255bcec15f474fba0b27105d4d2d69a2ed",
+        "skills/spring-client/references/markers.md": "08024b23896c84495a4615469a2324e475770a8c15e130206ee2330c1b19ad7d",
+        "skills/spring-client/SKILL.md": "e415abf83aadc683e8b88e86cc8e3bad1424cfaf990540f97f71c72487a23bee",
+        "skills/spring-client-test/references/markers.md": "f0f57939bc4bc130bea3b6f568b9a73b6fdbb319878d440a37a350a34e845e25",
+        "skills/spring-client-test/references/PaymentProviderClientTest.java.md": "d8818866df444c0145fdb927b9abbc4ec9c4837be283aca439a109a7a67eec49",
+        "skills/spring-client-test/SKILL.md": "96f5822bc054098a2233182f6094cf15ac2b592362e7f1c20df1046d7ada60c6",
+        "skills/spring-rest/references/layer.md": "3e7369d3bbf5e8f4ad43d6b68dede4fee418727917434614d6957372079bd62a",
+        "skills/spring-rest/references/markers.md": "da017307562a5951a4d9e8cedbe29f7832a3e77a896ab0c0fbdfcbfe7bc86b82",
+        "skills/spring-rest/SKILL.md": "780e138e63407f9a26d5c1e1f2fa6f94f9fcf958fa6bf9394923e3790714c872",
+        "skills/spring-rest-test/references/markers.md": "36046e75cc208bc686423681aa9d4d67f8674089822c58e44fd65a82d085fb04",
+        "skills/spring-rest-test/references/UC001RegisterGuestApiTest.java.md": "4deb8908386087d7ebb7fbc522421e1e84483c93c631ea06c0d95afb69401a83",
+        "skills/spring-rest-test/SKILL.md": "38d2a3c6a312e2788e59007c3682e6a1505889230a60fda45512620f4783eae2",
+        "skills/spring-service/references/layer.md": "7a02beb9ed6fb6fa73861cc00561150ebdd7e6652e7c587639c3f243bc874178",
+        "skills/spring-service/references/markers.md": "45315328cdc599d45976aacf3f84b4502ae803cb1fd3a3ae03817f4a4653b3cc",
+        "skills/spring-service/references/module-layout.md": "31d2d1d702e3443b874a25cd08c3aeec34d3b694d377ff6dcef3c31a85b313c8",
+        "skills/spring-service/SKILL.md": "15e4dee686c2dbedecbbb94c446cc8021a5cf4c00711089a3b80e80ba28c504b",
+        "skills/spring-service-test/references/markers.md": "c15a630d7b8714d2649084236d0350e59ded6b11c1e0292978caead4d966a011",
+        "skills/spring-service-test/references/UC001RegisterGuestServiceTest.java.md": "aa6fd97ea932036ca01f3fa1ecce61576e04cebc38a99a017eff8f533a2d85e8",
+        "skills/spring-service-test/SKILL.md": "f8b1ed6785ee6ec31ec509cecfd79ad1e1b599f3f27abc508878bc5f892a19ca",
+        "tessl-package.json": "5377c29e1f0a570f7ec2019cc93889fbd22d57644febb99260726c0a1e83538f",
+        "tile.json": "5168068cbf1c4a46fbccf7c5b37f5b7751ef1978456d6784c753559cb9d59088"
+      },
+      "legal": {
+        "LICENSE": {
+          "in_published_package": true,
+          "sha256": "596288b7c2507b134a18f9f1bfc4d5e415be0f910989d4787b840126a47ba6ac"
+        },
+        "NOTICE": {
+          "in_published_package": false,
+          "supplementary_source_copy": "repository root at 38657520768700e775af1cb594ec73b683d46341",
+          "sha256": "b61bb9b9d48a9c7d5ebd971d936f406f08656560ea190e35932260ca65b128fd"
+        }
+      }
+    },
+    "aiup-vaadin": {
+      "version": "3.7.1",
+      "release_tag": "aiup-vaadin-v3.7.1",
+      "source_commit": "38657520768700e775af1cb594ec73b683d46341",
+      "package_content_sha256": "c847654565e15d70094b27c5104bb3696ef669a38d8588a44163c1428a9c7b44",
+      "fingerprint_kind": "Locally computed digest of the complete published-package file inventory; not a registry signature",
+      "skill_files": {
+        "skills/hilla-ui/references/layer.md": "e58afd08a64ce65dc685a482b6be1fcb385925ea0ba2f3f2944906331928a688",
+        "skills/hilla-ui/references/markers.md": "edee38bce7f1408b496c40befc3b407c9a6de091a00e16a1fb8e0220c2e005b8",
+        "skills/hilla-ui/SKILL.md": "1e9027fce33c33f68165a1cd9b20c2c11c06dfcc05aa070eb3de391be287ca89",
+        "skills/hilla-ui-test/references/markers.md": "193c3cdc4c2a8ca8867b0a4d8f810de7e124af86146d8705614cf5b078cfe7d0",
+        "skills/hilla-ui-test/references/UC-001-manage-persons.test.tsx.md": "6a1e53aadfaddbf0e547bc496b4faa67afd81b9ad58fc5112bb9a1b53bbe7914",
+        "skills/hilla-ui-test/SKILL.md": "072b222104204b4203a36735d39c2ccaf5057f16062d375491e731ef3e23d875",
+        "skills/vaadin-e2e-test/references/dramafinder-api.md": "33a3d8b522eef3ef52252430800c40eed0e7713140198589762c5ff82768c054",
+        "skills/vaadin-e2e-test/references/layer.md": "fe8c92be895bf2481b66b1dba67fbc83c2919c030b873074d83a8a67473832a9",
+        "skills/vaadin-e2e-test/references/markers.md": "516ac919ea0ba6637e61c60a21c662148724a26a50e1907504167d39e27528f6",
+        "skills/vaadin-e2e-test/references/TC001CustomerOnboardingIT.java.md": "1bdd7cda50fdcc3eb9167a3eb1ce49bc961c1f9b60b8048ef98097ce879f61ae",
+        "skills/vaadin-e2e-test/references/UC001ManagePersonsIT.java.md": "ded3da8b7f027201baade17f161bf011888f24f5cc49a165182da989fac511bc",
+        "skills/vaadin-e2e-test/SKILL.md": "471c1e3f25c1db4cb275a15557b8d85e73c93f516b35e5983a8fa3d21e13f7e0",
+        "skills/vaadin-flow-ui/references/layer.md": "be4f76489b66d5485d779bca573d5eef0d4bf681346d5d7a918e79b783b7529b",
+        "skills/vaadin-flow-ui/references/markers.md": "7428ab55f6202900b2e77b1ba57341f5c4ffe9cffd8ccdda77513016c58d2982",
+        "skills/vaadin-flow-ui/SKILL.md": "224a6b847a70bca3027aa1b6e89b876f85ee826754ac2b54da56c9680ccbfda8",
+        "skills/vaadin-flow-ui-test/references/markers.md": "3846367086fbf81146220834d0d84d4bf71886a7d4d0c46cf0e2d2290b41da71",
+        "skills/vaadin-flow-ui-test/references/UC001ManagePersonsTest.java.md": "72a80a0657ca4431a8000247d0d340f1b0373d519ab513230a855b0a1de461dc",
+        "skills/vaadin-flow-ui-test/SKILL.md": "c87424553fddd7b470e47926cbe4bcf13292be741669591a6d61196f896f60cd"
+      },
+      "package_files": {
+        ".mcp.json": "f9291ed9e11e7b40fd29c03efeab91423fc486ddd56730ef9ee69fff95e73a94",
+        ".tessl-plugin/plugin.json": "71d9b6d5f52678d20432e2f00c449e5e7966a6697d1537508925d36e2538e138",
+        "LICENSE": "596288b7c2507b134a18f9f1bfc4d5e415be0f910989d4787b840126a47ba6ac",
+        "README.md": "1ac6910e67c61a3999d99ace502238dfd94451edc1faac0f68c29295a195a55c",
+        "rules/mcp-servers.md": "3e6e06dc1bccc96734c7cc128721dab5a9e68ecd54093fe9c88ed7cb7e2f6f12",
+        "skills/hilla-ui/references/layer.md": "e58afd08a64ce65dc685a482b6be1fcb385925ea0ba2f3f2944906331928a688",
+        "skills/hilla-ui/references/markers.md": "edee38bce7f1408b496c40befc3b407c9a6de091a00e16a1fb8e0220c2e005b8",
+        "skills/hilla-ui/SKILL.md": "1e9027fce33c33f68165a1cd9b20c2c11c06dfcc05aa070eb3de391be287ca89",
+        "skills/hilla-ui-test/references/markers.md": "193c3cdc4c2a8ca8867b0a4d8f810de7e124af86146d8705614cf5b078cfe7d0",
+        "skills/hilla-ui-test/references/UC-001-manage-persons.test.tsx.md": "6a1e53aadfaddbf0e547bc496b4faa67afd81b9ad58fc5112bb9a1b53bbe7914",
+        "skills/hilla-ui-test/SKILL.md": "072b222104204b4203a36735d39c2ccaf5057f16062d375491e731ef3e23d875",
+        "skills/vaadin-e2e-test/references/dramafinder-api.md": "33a3d8b522eef3ef52252430800c40eed0e7713140198589762c5ff82768c054",
+        "skills/vaadin-e2e-test/references/layer.md": "fe8c92be895bf2481b66b1dba67fbc83c2919c030b873074d83a8a67473832a9",
+        "skills/vaadin-e2e-test/references/markers.md": "516ac919ea0ba6637e61c60a21c662148724a26a50e1907504167d39e27528f6",
+        "skills/vaadin-e2e-test/references/TC001CustomerOnboardingIT.java.md": "1bdd7cda50fdcc3eb9167a3eb1ce49bc961c1f9b60b8048ef98097ce879f61ae",
+        "skills/vaadin-e2e-test/references/UC001ManagePersonsIT.java.md": "ded3da8b7f027201baade17f161bf011888f24f5cc49a165182da989fac511bc",
+        "skills/vaadin-e2e-test/SKILL.md": "471c1e3f25c1db4cb275a15557b8d85e73c93f516b35e5983a8fa3d21e13f7e0",
+        "skills/vaadin-flow-ui/references/layer.md": "be4f76489b66d5485d779bca573d5eef0d4bf681346d5d7a918e79b783b7529b",
+        "skills/vaadin-flow-ui/references/markers.md": "7428ab55f6202900b2e77b1ba57341f5c4ffe9cffd8ccdda77513016c58d2982",
+        "skills/vaadin-flow-ui/SKILL.md": "224a6b847a70bca3027aa1b6e89b876f85ee826754ac2b54da56c9680ccbfda8",
+        "skills/vaadin-flow-ui-test/references/markers.md": "3846367086fbf81146220834d0d84d4bf71886a7d4d0c46cf0e2d2290b41da71",
+        "skills/vaadin-flow-ui-test/references/UC001ManagePersonsTest.java.md": "72a80a0657ca4431a8000247d0d340f1b0373d519ab513230a855b0a1de461dc",
+        "skills/vaadin-flow-ui-test/SKILL.md": "c87424553fddd7b470e47926cbe4bcf13292be741669591a6d61196f896f60cd",
+        "tessl-package.json": "b156b80ac1801ebc232e5abc935759282a490686f0c5bd13862a3359c93c03f2",
+        "tile.json": "77a7fb48afe1ceab220bb28a9ae4aa4cbfd26cb13dcfa97429e270d7154a9ee8"
+      },
+      "legal": {
+        "LICENSE": {
+          "in_published_package": true,
+          "sha256": "596288b7c2507b134a18f9f1bfc4d5e415be0f910989d4787b840126a47ba6ac"
+        },
+        "NOTICE": {
+          "in_published_package": false,
+          "supplementary_source_copy": "repository root at 38657520768700e775af1cb594ec73b683d46341",
+          "sha256": "b61bb9b9d48a9c7d5ebd971d936f406f08656560ea190e35932260ca65b128fd"
+        }
+      }
+    }
+  },
+  "skills": {
+    "acceptance-protocol": {
+      "package": "aiup-core",
+      "files": {
+        "references/protocol.md": "9be75a0aa3787c6467cabd6e1b83d723be70c0fcb2612b7ec6b0a1f9a1d3cf92",
+        "SKILL.md": "25f2d99dfb75d8bc725c096ae2f5ed092374c5465f11bc7718212418e143d777"
+      }
+    },
+    "architecture-decision": {
+      "package": "aiup-core",
+      "files": {
+        "references/adr.md": "6a818d9a76b337df858874830b06a7083c7fef26d1a7aa6490edeca05093996d",
+        "SKILL.md": "c6599ccaa00a9b8b04478659d69164eddc3bc96cbdca86ff82df3cbeaf7f3aae"
+      }
+    },
+    "business-process": {
+      "package": "aiup-core",
+      "files": {
+        "references/example.bpmn.md": "c7ca88033a899547e2c43d906272abffc80059a3f1a453c05b4e7ff1df4fdb97",
+        "references/process.bpmn.md": "a9aed917630a8860d94a893a06959399a62bec68f83cbeae0e6899bc58c1cf54",
+        "scripts/bpmn_layout.py": "1d3a722fab6872d1dc1b3317b39ea47ca0144c84f621aa72827893c67bb482f0",
+        "SKILL.md": "b63116aab09a106e0279cac393affd5a3b6cdb78a2bd378e8b1a5da4813919a6"
+      }
+    },
+    "entity-model": {
+      "package": "aiup-core",
+      "files": {
+        "references/clarify-checklist.md": "6f5888fba30ee21762708769ece064214b3f7bc4abc14d0dd42c6864f9eed233",
+        "references/REFERENCE.md": "713d15e463a9d22ad15c49d465c31fdaffb20255c4381acdb6fb0129f6ad537e",
+        "SKILL.md": "adf9e257a89652bdb42c912849172bdf80abbacdde63701499c5d808b39b51be"
+      }
+    },
+    "flyway-schema": {
+      "package": "aiup-flyway",
+      "files": {
+        "references/layer.md": "1851774be87fb4b03890a84c420a9696c4e1aad8b3c1c82f4dcc13d1ebc0bf40",
+        "references/markers.md": "d18fbef3b8b0e4d28f56eed0b39befe000628d8bf8ed05a441a7cf6ebbbced03",
+        "SKILL.md": "5e43d088f337f436c4bc0c0946521d3883d37e38c63c4814a975b4c0f55d75bb"
+      }
+    },
+    "hilla-ui": {
+      "package": "aiup-vaadin",
+      "files": {
+        "references/layer.md": "e58afd08a64ce65dc685a482b6be1fcb385925ea0ba2f3f2944906331928a688",
+        "references/markers.md": "edee38bce7f1408b496c40befc3b407c9a6de091a00e16a1fb8e0220c2e005b8",
+        "SKILL.md": "1e9027fce33c33f68165a1cd9b20c2c11c06dfcc05aa070eb3de391be287ca89"
+      }
+    },
+    "hilla-ui-test": {
+      "package": "aiup-vaadin",
+      "files": {
+        "references/markers.md": "193c3cdc4c2a8ca8867b0a4d8f810de7e124af86146d8705614cf5b078cfe7d0",
+        "references/UC-001-manage-persons.test.tsx.md": "6a1e53aadfaddbf0e547bc496b4faa67afd81b9ad58fc5112bb9a1b53bbe7914",
+        "SKILL.md": "072b222104204b4203a36735d39c2ccaf5057f16062d375491e731ef3e23d875"
+      }
+    },
+    "jooq-persistence": {
+      "package": "aiup-jooq",
+      "files": {
+        "references/layer.md": "232d3358c1b41a64c652022cae4826f3f652bcd1c00fc68a3b0359f4c26de8dc",
+        "references/markers.md": "5f56eb0fb0cd23f377f2eddf1c593307770f6aac3fd9145969492bb252d462d8",
+        "SKILL.md": "c34dcd613e6bf2d07433c2ed58de882bb46dd59c7a1a65fe479baa5438d2e812"
+      }
+    },
+    "jooq-persistence-test": {
+      "package": "aiup-jooq",
+      "files": {
+        "references/markers.md": "713b258fb3dbf6d9e900b91b365b44d4816f3b86dd6bd496b5455f928f7a4c6c",
+        "references/R__uc010_browse_product_catalog.sql.md": "e3550a93c78c482365794783ab13a9e994480938bb12e4d5d114969da16fccb0",
+        "references/UC010BrowseProductCatalogRepositoryTest.java.md": "5d06fed6f24f15c959e056a954e9fccab26a0cd79a4379163a1389f4f0c67acd",
+        "SKILL.md": "e7b0764e45d55c351d614538a8ce91eb19c35ccae763489f15ef0e5309151e21"
+      }
+    },
+    "next": {
+      "package": "aiup-core",
+      "files": {
+        "SKILL.md": "8ef39a8fa2449b6ba87bef21e0499b359e96028dca702dabafde4b613efa5e85"
+      }
+    },
+    "open-questions": {
+      "package": "aiup-core",
+      "files": {
+        "references/open-questions.md": "e9a6ebab530bd6a7812b8d317455c95044c36af0ba5134ef71776e957c163a9e",
+        "SKILL.md": "7134e17dbc9295438c84ec4d3a87fde5ae01712f2908129811f3996ab19629d8"
+      }
+    },
+    "release-notes": {
+      "package": "aiup-core",
+      "files": {
+        "references/release.md": "f81fa2491f35aee91cd7b3b2ceefd414e83e5482432f5140c28a01479faaf060",
+        "SKILL.md": "d0eac8c1121a3b424da96947e42684de484034c419feb86410e2a265339ca5dd"
+      }
+    },
+    "requirements": {
+      "package": "aiup-core",
+      "files": {
+        "references/clarify-checklist.md": "76b200adb1ce6f01f567d90cb0c1f1f6fbaadaced60fe9d6c071b29bd1aaaee4",
+        "references/glossary.md": "57ab356f1f9f11fb9127e5af5438806015b3b73b92dfb3e08a8c451472839ac9",
+        "references/REFERENCE.md": "3539c19f6c8b4ce91c560657ca42c5ae9099086f580be63c5b358f6b040847d6",
+        "SKILL.md": "1111046f818416697ec20ae8f7ae5c1101ab1bc1c16e3615f31eea90c3f45995"
+      }
+    },
+    "reverse-engineer": {
+      "package": "aiup-core",
+      "files": {
+        "references/entity-model.md": "038699b562e4acb59858a113bbc04723261bb3f5513bf831a27017f0e63bf3b7",
+        "references/modules.md": "5b9772ef0fd4044dbe715a0cab4eaa7f36c92f823852b6f466bdeb4b3571e549",
+        "references/specifications.md": "a07ede11d1763f5d3b5088c4816e06350775215916e5b77608ec63c88aa4c689",
+        "references/stack-signals.md": "d2c0d8d0117674325d4dfc3ad311834bc19838bb708ffb526dafd039209ccec9",
+        "SKILL.md": "1ff25f18334d6a7e9a96067c19bb38d33f1507bbcd6cad960a8b213a5019ce88"
+      }
+    },
+    "spec-review": {
+      "package": "aiup-core",
+      "files": {
+        "references/lint-codes.md": "426ee7da6e81ad83ee4fa32daa2faab1695854bd627d6047fb659629b2360dc5",
+        "references/review-checklist.md": "282a06239f66d759bd7c8d16488eb673ce1b089858c7eb6c146357d2855b6a47",
+        "scripts/spec_lint.py": "3f99f224d336df5c2239841bd2c50ac27404ba5626d87680dd383c341ff9b009",
+        "SKILL.md": "0d4404e7a8f657606263b62585771004473bce72a2047684fdc5b6c8458bf9f8"
+      }
+    },
+    "spring-client": {
+      "package": "aiup-spring-boot",
+      "files": {
+        "references/layer.md": "5e8f554e45c58679ab19874f8eb489255bcec15f474fba0b27105d4d2d69a2ed",
+        "references/markers.md": "08024b23896c84495a4615469a2324e475770a8c15e130206ee2330c1b19ad7d",
+        "SKILL.md": "e415abf83aadc683e8b88e86cc8e3bad1424cfaf990540f97f71c72487a23bee"
+      }
+    },
+    "spring-client-test": {
+      "package": "aiup-spring-boot",
+      "files": {
+        "references/markers.md": "f0f57939bc4bc130bea3b6f568b9a73b6fdbb319878d440a37a350a34e845e25",
+        "references/PaymentProviderClientTest.java.md": "d8818866df444c0145fdb927b9abbc4ec9c4837be283aca439a109a7a67eec49",
+        "SKILL.md": "96f5822bc054098a2233182f6094cf15ac2b592362e7f1c20df1046d7ada60c6"
+      }
+    },
+    "spring-rest": {
+      "package": "aiup-spring-boot",
+      "files": {
+        "references/layer.md": "3e7369d3bbf5e8f4ad43d6b68dede4fee418727917434614d6957372079bd62a",
+        "references/markers.md": "da017307562a5951a4d9e8cedbe29f7832a3e77a896ab0c0fbdfcbfe7bc86b82",
+        "SKILL.md": "780e138e63407f9a26d5c1e1f2fa6f94f9fcf958fa6bf9394923e3790714c872"
+      }
+    },
+    "spring-rest-test": {
+      "package": "aiup-spring-boot",
+      "files": {
+        "references/markers.md": "36046e75cc208bc686423681aa9d4d67f8674089822c58e44fd65a82d085fb04",
+        "references/UC001RegisterGuestApiTest.java.md": "4deb8908386087d7ebb7fbc522421e1e84483c93c631ea06c0d95afb69401a83",
+        "SKILL.md": "38d2a3c6a312e2788e59007c3682e6a1505889230a60fda45512620f4783eae2"
+      }
+    },
+    "spring-service": {
+      "package": "aiup-spring-boot",
+      "files": {
+        "references/layer.md": "7a02beb9ed6fb6fa73861cc00561150ebdd7e6652e7c587639c3f243bc874178",
+        "references/markers.md": "45315328cdc599d45976aacf3f84b4502ae803cb1fd3a3ae03817f4a4653b3cc",
+        "references/module-layout.md": "31d2d1d702e3443b874a25cd08c3aeec34d3b694d377ff6dcef3c31a85b313c8",
+        "SKILL.md": "15e4dee686c2dbedecbbb94c446cc8021a5cf4c00711089a3b80e80ba28c504b"
+      }
+    },
+    "spring-service-test": {
+      "package": "aiup-spring-boot",
+      "files": {
+        "references/markers.md": "c15a630d7b8714d2649084236d0350e59ded6b11c1e0292978caead4d966a011",
+        "references/UC001RegisterGuestServiceTest.java.md": "aa6fd97ea932036ca01f3fa1ecce61576e04cebc38a99a017eff8f533a2d85e8",
+        "SKILL.md": "f8b1ed6785ee6ec31ec509cecfd79ad1e1b599f3f27abc508878bc5f892a19ca"
+      }
+    },
+    "stack": {
+      "package": "aiup-core",
+      "files": {
+        "references/layer-catalog.md": "d01b9150dfd0b58fea0a689f14e2c1c49c5495836f385a9cf7d7d069711c2d6e",
+        "references/stack.md": "2572ffcc7afcd3f3402748b87476c8cab70df66d55a1c22d9d367787470c9d38",
+        "SKILL.md": "d1043d5794cd2434f65f828b62ce46bb971c56c85433fbef23976b8d295cbbbc"
+      }
+    },
+    "test-case": {
+      "package": "aiup-core",
+      "files": {
+        "references/example-process.bpmn.md": "61cf5a122234f6450879050041bde56b291047ca8b5c4e00a1b053a40bc34ebd",
+        "references/example.md": "d8accec068f68c994265ce7162885210c9dca9a7d4f6418a393d22f1186ce78c",
+        "references/test-case.md": "176c9193e9e51acbb13cb2f3324623a2f51e26055ca6e6535e0d776325951609",
+        "scripts/bpmn_paths.py": "93275a3c5eac3e5e1e3346790791d8fe59fe36ef645cad1ce671ea75bcf1306a",
+        "SKILL.md": "0a40fe24a3946aba4bada6063e2cb144a7e12255938d632b9e68b69cd3945140"
+      }
+    },
+    "test-case-coverage": {
+      "package": "aiup-core",
+      "files": {
+        "SKILL.md": "82d0dd1f2d1418f95c329cac5612624c55dcd7a478452f40e0885695121cd45b"
+      }
+    },
+    "test-case-implement": {
+      "package": "aiup-core",
+      "files": {
+        "SKILL.md": "e4430f941aed1dc91e92b55fa2dea1d69c0081e069d622c96a194fde4d795a5c"
+      }
+    },
+    "use-case-coverage": {
+      "package": "aiup-core",
+      "files": {
+        "scripts/coverage_report.py": "c170de581f363288eff4c7a35b27949726be60a82c5aaaa917e23c6b2c4f1376",
+        "SKILL.md": "e04565fbb12e0d8124f71e9e31a6bd35f46edbd6b0f61328dd149f78d1d37ccb"
+      }
+    },
+    "use-case-diagram": {
+      "package": "aiup-core",
+      "files": {
+        "references/modules.md": "5213b63bc2d83d3b2bfa98d3f104244596249f096632fd7dab193c9d9a5abe00",
+        "SKILL.md": "8c93d652a9b28ecef899eb83f0218649f770d1cf89f4278c561cdf61b46de852"
+      }
+    },
+    "use-case-implement": {
+      "package": "aiup-core",
+      "files": {
+        "references/decision-rights.md": "e272889efa4f39f891fcc4b08b46e1e46da0e1cf3e82ae9d52a6f7b10942285f",
+        "SKILL.md": "1f0ef597e9e3777ad3cf139cdcbc1882d43606f2f3f146645d7e15d881981f16"
+      }
+    },
+    "use-case-spec": {
+      "package": "aiup-core",
+      "files": {
+        "references/clarify-checklist.md": "ec7e0aefeffc745a8b6fe756cbff2326ae0ab81b53c5e50c8f3866ddeb33a09d",
+        "references/example.md": "d1c91532433800ceb7a44cf7e98a0c4f297b74729bec9025f5e05b1db24331ca",
+        "references/format-spec.md": "7f7ead3464abf5720929165b27e194836696ef8c192a6550b47eb90cd0e4e5d0",
+        "references/overview-and-postconditions.md": "159299532167dee87c7b8f801cde040ade38c1a64d15d94fd73b130abfb0013c",
+        "references/use-case.md": "c94aaddde7942d0575c116d5df0143f947549026c2ae34d1c5e9c0611ba3387e",
+        "scripts/validate_use_case.py": "e52df953d1ebf525c769ef8aead453811f80009cf9f368f6420a5c465c0b6a3f",
+        "SKILL.md": "4195448aed612b2ee6fe6942e91c5202589847235b26ac4f4b9d0712824e3fdd"
+      }
+    },
+    "use-case-test": {
+      "package": "aiup-core",
+      "files": {
+        "references/which-layer-tests-what.md": "f96fd42bea58431ddf58cd51fdc734dcd817980fbeda2ede43e76e9b7c93061e",
+        "SKILL.md": "bcbd852fa5bcc5428fe7071069b766642a56f1fa1be40dbb1a12bc0ad241743e"
+      }
+    },
+    "user-guide": {
+      "package": "aiup-core",
+      "files": {
+        "references/chapter.md": "c51f1dc3f40213d81991cb4ea483440051ea9c25f7eb4f46309f8123dc1f1b6e",
+        "scripts/guide_anchor.py": "e32e4fa2939f03c01dff1d72dac03dd8b77d12b2a794bbc83e0fa47b6960522e",
+        "SKILL.md": "935b96909ea52b5a950200051a08bc940927135e37f147b94c10c7e9dd8a82a0"
+      }
+    },
+    "vaadin-e2e-test": {
+      "package": "aiup-vaadin",
+      "files": {
+        "references/dramafinder-api.md": "33a3d8b522eef3ef52252430800c40eed0e7713140198589762c5ff82768c054",
+        "references/layer.md": "fe8c92be895bf2481b66b1dba67fbc83c2919c030b873074d83a8a67473832a9",
+        "references/markers.md": "516ac919ea0ba6637e61c60a21c662148724a26a50e1907504167d39e27528f6",
+        "references/TC001CustomerOnboardingIT.java.md": "1bdd7cda50fdcc3eb9167a3eb1ce49bc961c1f9b60b8048ef98097ce879f61ae",
+        "references/UC001ManagePersonsIT.java.md": "ded3da8b7f027201baade17f161bf011888f24f5cc49a165182da989fac511bc",
+        "SKILL.md": "471c1e3f25c1db4cb275a15557b8d85e73c93f516b35e5983a8fa3d21e13f7e0"
+      }
+    },
+    "vaadin-flow-ui": {
+      "package": "aiup-vaadin",
+      "files": {
+        "references/layer.md": "be4f76489b66d5485d779bca573d5eef0d4bf681346d5d7a918e79b783b7529b",
+        "references/markers.md": "7428ab55f6202900b2e77b1ba57341f5c4ffe9cffd8ccdda77513016c58d2982",
+        "SKILL.md": "224a6b847a70bca3027aa1b6e89b876f85ee826754ac2b54da56c9680ccbfda8"
+      }
+    },
+    "vaadin-flow-ui-test": {
+      "package": "aiup-vaadin",
+      "files": {
+        "references/markers.md": "3846367086fbf81146220834d0d84d4bf71886a7d4d0c46cf0e2d2290b41da71",
+        "references/UC001ManagePersonsTest.java.md": "72a80a0657ca4431a8000247d0d340f1b0373d519ab513230a855b0a1de461dc",
+        "SKILL.md": "c87424553fddd7b470e47926cbe4bcf13292be741669591a6d61196f896f60cd"
+      }
+    }
+  },
+  "starting_scope": "Only original vision and architecture; no requirements, glossary, model, diagram, questions, stack, use cases, tests or approvals authored",
+  "external_tools": "Package MCP declarations retained; remote services and npx tool versions are not pinned or executed by this preparation"
+}

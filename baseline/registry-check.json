@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-11-23 07:55:08 UTC",
+  "timezone": "Europe/Zurich",
+  "method": "Tessl outdated against the exact-version tutorial manifest",
+  "latest_available": {
+    "aiup-core": {
+      "selected": "3.21.2",
+      "latest": "3.21.2"
+    },
+    "aiup-flyway": {
+      "selected": "3.5.1",
+      "latest": "3.5.1"
+    },
+    "aiup-jooq": {
+      "selected": "3.5.1",
+      "latest": "3.5.1"
+    },
+    "aiup-spring-boot": {
+      "selected": "3.7.1",
+      "latest": "3.7.1"
+    },
+    "aiup-vaadin": {
+      "selected": "3.7.1",
+      "latest": "3.7.1"
+    }
+  },
+  "outdated": [],
+  "errors": []
+}

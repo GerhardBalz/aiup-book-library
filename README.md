@@ -1,3 +1,50 @@
+# Book Library baseline before requirements
+
+Prepared on 23 November 2026, Europe/Zurich. This branch starts before requirements
+authoring, with only the tutorial's original [vision](docs/vision.md) and
+[architecture](docs/architecture.md) under docs/. The starter application is unchanged.
+
+The latest published packages available at preparation are frozen as ordinary
+files in `.agents/skills`: Core 3.21.2, Flyway/jOOQ 3.5.1 and Spring Boot/Vaadin 3.7.1.
+No installation is needed to discover the skills after cloning.
+
+Open this checkout as a separate project and start a fresh chat with:
+
+```text
+Use $requirements
+```
+
+Answer the skill's normal questions and follow the actual handoffs. This baseline
+does not preselect business answers, approve specifications or prescribe the
+subsequent command sequence.
+
+Before authoring, verify the exact starting state with:
+
+```text
+python -B baseline/verify_baseline.py
+```
+
+The [runtime manifest](baseline/runtime.json) pins the published package contents
+and their source tags. The paired
+[Marketplace source baseline](https://github.com/GerhardBalz/aiup-marketplace/tree/codex/baseline-20261123)
+is upstream `639770e6d5f5777cddb34dc987a38cc9cbcb51df` (Core source 3.21.3).
+The registry still offered 3.21.2 during preparation; this consumer uses that
+published runtime, with no Marketplace-main source overlay.
+
+The package files retain their licenses and notices. Where an older layer package
+omits a NOTICE, a [supplementary source notice](baseline/legal/README.md) is retained
+separately. Host-specific MCP configuration is not published. The unchanged
+package declarations are available under `baseline/published-packages`; external
+MCP services and tools are not frozen or qualified by this snapshot.
+
+This baseline contains no prior manual conversation, generated specification,
+private evidence or candidate fix. Preparation did not run requirements authoring,
+a model playthrough or application tests.
+
+The remainder is the original tutorial starter README.
+
+---
+
 # Book Library
 
 The **Book Library** is the reference example project for the

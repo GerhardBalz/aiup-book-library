@@ -1,0 +1,12 @@
+{
+  "name": "ai-unified-process/aiup-flyway",
+  "version": "3.5.1",
+  "summary": "AI Unified Process migration layer - Flyway schema migrations from the entity model",
+  "skills": {
+    "flyway-schema": {
+      "path": "skills/flyway-schema/SKILL.md"
+    }
+  },
+  "mcpServers": ".mcp.json",
+  "private": false
+}

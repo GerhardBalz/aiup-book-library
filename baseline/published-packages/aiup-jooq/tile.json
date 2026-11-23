@@ -1,0 +1,20 @@
+{
+  "name": "ai-unified-process/aiup-jooq",
+  "version": "3.5.1",
+  "summary": "AI Unified Process persistence layer - jOOQ repositories, projections, and repository tests",
+  "skills": {
+    "jooq-persistence": {
+      "path": "skills/jooq-persistence/SKILL.md"
+    },
+    "jooq-persistence-test": {
+      "path": "skills/jooq-persistence-test/SKILL.md"
+    }
+  },
+  "rules": {
+    "mcp-servers": {
+      "rules": "rules/mcp-servers.md"
+    }
+  },
+  "mcpServers": ".mcp.json",
+  "private": false
+}
